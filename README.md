@@ -1,6 +1,6 @@
-# Turborepo starter
+# MosqueICU's Public monorepo
 
-This is an official starter Turborepo.
+This is our real official Turborepo feel free to use our app to work on your own evangelic missions. Keep calm & boost the glory of islam.
 
 ## Using this example
 
