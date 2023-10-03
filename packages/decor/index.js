@@ -1,1 +1,1 @@
-export { default as Answer } from './components/answer.js';
+export { default as Answer } from './components/Answer.js';
