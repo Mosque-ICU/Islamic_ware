@@ -16,7 +16,7 @@ jobs:
          - name:
               Change to package
               directory
-           working-directory: packages/decor
+           working-directory: packages/sacred_texts
            run: |
               npm ci
               npm test
@@ -36,7 +36,14 @@ jobs:
          - name:
               Change to package
               directory
-           working-directory: packages/decor
+           working-directory: packages/sacred_texts
+           run: |
+              npm ci
+              npm publish
+         - name:
+              Change to package
+              directory
+           working-directory: .../packages/decor
            run: |
               npm ci
               npm publish
