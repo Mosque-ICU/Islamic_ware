@@ -1,6 +1,6 @@
 # MosqueICU's Public monorepo
 
-This is our real official Turborepo feel free to use our app to work on your own evangelic missions. Keep calm & boost the glory of islam.
+This is our free & public official Turborepo feel free to use our app to work on your own evangelic missions. Keep calm & boost the glory of islam.
 
 Meet the team at https://discord.gg/9b5ePsv2EX
 
