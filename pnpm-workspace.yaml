@@ -1,3 +1,16 @@
 packages:
-  - "apps/*"
-  - "packages/*"
+   - 'apps/*'
+   - 'container/*'
+   - 'content/*'
+   - 'docker/*'
+   - 'graphql/*'
+   - 'home/*'
+   - 'packages/*'
+   - 'server/*'
+   - 'services/*'
+   - 'shared/*'
+   - 'tools/*'
+   - 'web'
+   - 'bot'
+dependencies:
+   - tsconfig
