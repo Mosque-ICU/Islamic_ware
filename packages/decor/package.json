@@ -1,0 +1,14 @@
+{
+	"name": "@mosque-icu/decor",
+	"version": "1.0.0",
+	"description": "npm package for islamic texts",
+	"main": "index.js",
+	"publishConfig": {
+		"@mosque-icu:registry": "https://npm.pkg.github.com"
+	},
+	"scripts": {
+		"test": "exit 0"
+	},
+	"author": "MosqueICU",
+	"license": "MIT"
+}

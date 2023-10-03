@@ -1,0 +1,44 @@
+name: NPM Package
+
+on:
+   push:
+      branches:
+         - main # Adjust this to match the branch you want to trigger the workflow
+
+jobs:
+   build:
+      runs-on: ubuntu-latest
+      steps:
+         - uses: actions/checkout@v4
+         - uses: actions/setup-node@v3
+           with:
+              node-version: 16
+         - name:
+              Change to package
+              directory
+           working-directory: packages/decor
+           run: |
+              npm ci
+              npm test
+
+   publish-gpr:
+      needs: build
+      runs-on: ubuntu-latest
+      permissions:
+         packages: write
+         contents: read
+      steps:
+         - uses: actions/checkout@v4
+         - uses: actions/setup-node@v3
+           with:
+              node-version: 16
+              registry-url: https://npm.pkg.github.com/
+         - name:
+              Change to package
+              directory
+           working-directory: packages/decor
+           run: |
+              npm ci
+              npm publish
+           env:
+              NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
