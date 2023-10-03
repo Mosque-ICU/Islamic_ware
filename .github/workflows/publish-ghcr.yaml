@@ -1,0 +1,31 @@
+name: Docker Image CI for GHCR
+
+on:
+   push:
+      branches:
+         - main # Adjust this to match the branch you want to trigger the workflow
+
+jobs:
+   build_and_publish:
+      runs-on: ubuntu-latest
+      steps:
+         - name: Checkout code
+           uses: actions/checkout@v2
+
+         - name:
+              Build and push the image
+              (rss-server)
+           run: |
+              cd packages/docker/server/rss-server
+              docker login --username mosqueicuadmin --password ${{ secrets.GH_PAT }} ghcr.io 
+              docker build . --tag ghcr.io/mosqueicuadmin/rss-server-ghcr:latest 
+              docker push ghcr.io/mosqueicuadmin/rss-server-ghcr:latest
+
+         - name:
+              Build and push the image
+              (rss-cron)
+           run: |
+              cd packages/docker/server/rss-cron  
+              docker login --username mosqueicuadmin --password ${{ secrets.GH_PAT }} ghcr.io 
+              docker build . --tag ghcr.io/mosqueicuadmin/rss-cron-ghcr:latest 
+              docker push ghcr.io/mosqueicuadmin/rss-cron-ghcr:latest

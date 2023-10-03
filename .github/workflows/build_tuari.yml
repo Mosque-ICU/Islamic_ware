@@ -1,0 +1,83 @@
+# name: 'Build and Release Tauri App'
+# on:
+#    push:
+#       branches:
+#          - main
+# jobs:
+#    build-tauri-app:
+#       name: 'Build Tauri App'
+#       runs-on: ubuntu-latest
+#       steps:
+#          - name: 'Checkout Code'
+#            uses: actions/checkout@v2
+
+#          - name: 'Set up Node.js'
+#            uses: actions/setup-node@v2
+#            with:
+#               node-version: '18'
+
+#          - name: 'Install Tauri CLI'
+#            run:
+#               npm install -g
+#               @tauri-apps/cli
+
+#          - name:
+#               'Change Directory to Tauri
+#               App'
+#            run: cd content/ulema
+
+#          - name:
+#               'Build Tauri App for
+#               Windows'
+#            run:
+#               tauri build --target
+#               windows
+
+#          - name:
+#               'Build Tauri App for macOS'
+#            run: tauri build --target mac
+
+#          - name: 'Create Zip Archive'
+#            run: |
+#               cd ..
+#               zip -r tauri-app-windows.zip ./ulema/target/release/bundle/windows/
+#               zip -r tauri-app-macos.zip ./ulema/target/release/bundle/macos/
+
+#          - name: 'Upload Zip Artifacts'
+#            uses: actions/upload-artifact@v2
+#            with:
+#               name: tauri-app-artifacts
+#               path: |
+#                  tauri-app-windows.zip
+#                  tauri-app-macos.zip
+
+#    release-content:
+#       name: 'Create GitHub Release'
+#       runs-on: ubuntu-latest
+#       needs: [build-tauri-app]
+#       env:
+#          GITHUB_TOKEN:
+#             ${{ secrets.GITHUB_TOKEN }}
+#       steps:
+#          - name:
+#               'Download Tauri App
+#               Artifacts'
+#            uses: actions/download-artifact@v2
+#            with:
+#               name: tauri-app-artifacts
+
+#          - name: 'Create GitHub Release'
+#            uses: softprops/action-gh-release@v1
+#            with:
+#               files: |
+#                  tauri-app-windows.zip
+#                  tauri-app-macos.zip
+#               tag_name:
+#                  v${{ github.run_number
+#                  }}
+#               name:
+#                  Release V${{
+#                  github.run_number }}
+
+
+

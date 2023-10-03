@@ -1,0 +1,12 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "18adb80c-3014-4da3-a861-8a29279b102f"
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.hossam2312.nextexposolitomonorepo"
+    }
+  }
+}
