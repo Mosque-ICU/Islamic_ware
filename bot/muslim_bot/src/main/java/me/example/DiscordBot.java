@@ -1,4 +1,4 @@
-package me.mosqueicu;
+package me.example;
 
 public class DiscordBot {
 }
