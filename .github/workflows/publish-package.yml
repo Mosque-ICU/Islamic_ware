@@ -20,6 +20,13 @@ jobs:
            run: |
               npm ci
               npm test
+         - name:
+              Change to package
+              directory
+           working-directory: packages/decor
+           run: |
+              npm ci
+              npm test
 
    publish-gpr:
       needs: build
@@ -36,7 +43,7 @@ jobs:
          - name:
               Change to package
               directory
-           working-directory: packages/sacred_texts
+           working-directory: packages/decor
            run: |
               npm ci
               npm publish
@@ -45,7 +52,7 @@ jobs:
          - name:
               Change to package
               directory
-           working-directory: packages/decor
+           working-directory: packages/sacred_texts
            run: |
               npm ci
               npm publish
