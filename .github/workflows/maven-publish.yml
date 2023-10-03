@@ -1,10 +1,9 @@
 name: Maven Package
 
 on:
-  push:
+   push:
       branches:
          - main # Adjust this to match the branch you want to trigger the workflow
-
 
 jobs:
    build:
@@ -30,9 +29,7 @@ jobs:
            run: cd bot/muslim_bot
 
          - name: Build with Maven
-           run:
-              mvn -B package --file
-              pom.xml
+           run: mvn -B package
 
          - name:
               Publish to GitHub Packages
