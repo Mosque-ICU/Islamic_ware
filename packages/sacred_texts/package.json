@@ -1,10 +1,10 @@
 {
-	"name": "@mosqueicuadmin/sacred_texts",
+	"name": "@mosque-icu/sacred_texts",
 	"version": "1.0.0",
 	"description": "npm package for islamic texts",
 	"main": "index.js",
 	"publishConfig": {
-		"@mosqueicuadmin:registry": "https://npm.pkg.github.com"
+		"@mosque-icu:registry": "https://npm.pkg.github.com"
 	},
 	"scripts": {
 		"test": "exit 0"

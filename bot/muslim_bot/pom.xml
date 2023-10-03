@@ -48,7 +48,7 @@
    <repository>
      <id>github</id>
      <name>islamic-ware</name>
-     <url>https://maven.pkg.github.com/mosqueicuadmin/islamic-ware</url>
+     <url>https://maven.pkg.github.com/mosque-icu/islamic-ware</url>
    </repository>
 </distributionManagement>
 
