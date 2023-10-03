@@ -6,30 +6,36 @@ on:
          - main # Adjust this to match the branch you want to trigger the workflow
 
 jobs:
-  build:
+   build:
+      runs-on: ubuntu-latest
+      permissions:
+         contents: read
+         packages: write
 
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
+      steps:
+         - name: Standard Checkout
+           uses: actions/checkout@v2
 
-    steps:
-    - name: Standard Checkout
-      uses: actions/checkout@v2
+         - name: Set up JDK 11
+           uses: actions/setup-java@v3
+           with:
+              java-version: '11'
+              distribution: 'temurin'
 
-    - name: Set up JDK 11
-      uses: actions/setup-java@v3
-      with:
-        java-version: '11'
-        distribution: 'temurin'
+         - name:
+              Change directory to
+              server/content
+           run: cd server/content
 
-    - name: Change directory to bot/muslim_bot
-      run: cd bot/muslim_bot
+         - name: Build with Maven
+           run: mvn -B package -f
+              server/content/pom.xml # Replace "path/to/pom.xml" with the actual path to your pom.xml file
 
-    - name: Build with Maven
-      run: mvn -B package -f bot/muslim_bot/pom.xml # Replace "path/to/pom.xml" with the actual path to your pom.xml file
-
-    - name: Publish to GitHub Packages Apache Maven
-      run: mvn deploy -f bot/muslim_bot/pom.xml # Replace "path/to/pom.xml" with the actual path to your pom.xml file
-      env:
-        GITHUB_TOKEN: ${{ github.token }}
+         - name:
+              Publish to GitHub Packages
+              Apache Maven
+           run: mvn deploy -f
+              server/content/pom.xml # Replace "path/to/pom.xml" with the actual path to your pom.xml file
+           env:
+              GITHUB_TOKEN:
+                 ${{ github.token }}
