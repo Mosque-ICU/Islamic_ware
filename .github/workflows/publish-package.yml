@@ -13,8 +13,13 @@ jobs:
          - uses: actions/setup-node@v3
            with:
               node-version: 16
-         - run: npm ci
-         - run: npm test
+         - name:
+              Change to package
+              directory
+           working-directory: packages/sacred_texts
+           run: |
+              npm ci
+              npm test
 
    publish-gpr:
       needs: build
@@ -28,7 +33,12 @@ jobs:
            with:
               node-version: 16
               registry-url: https://npm.pkg.github.com/
-         - run: npm ci
-         - run: npm publish
+         - name:
+              Change to package
+              directory
+           working-directory: packages/sacred_texts
+           run: |
+              npm ci
+              npm publish
            env:
               NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
