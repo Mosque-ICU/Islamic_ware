@@ -1,8 +1,10 @@
 name: Maven Package
 
 on:
-   release:
-      types: [created]
+  push:
+      branches:
+         - main # Adjust this to match the branch you want to trigger the workflow
+
 
 jobs:
    build:
