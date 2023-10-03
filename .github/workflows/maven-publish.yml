@@ -26,7 +26,8 @@ jobs:
          - name:
               Change directory to
               bot/muslim_bot
-           run: cd bot/muslim_bot
+           run: cd bot
+            cd muslim_bot
 
          - name: Build with Maven
            run: mvn -B package
