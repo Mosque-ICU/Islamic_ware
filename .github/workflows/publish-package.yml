@@ -40,6 +40,8 @@ jobs:
            run: |
               npm ci
               npm publish
+           env:
+              NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
          - name:
               Change to package
               directory
