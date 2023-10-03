@@ -31,7 +31,8 @@ jobs:
            run: cd bot/muslim_bot
 
          - name: Build with Maven
-           run: mvn -B package
+           run: mvn -B package -f
+              bot/muslim_bot/pom.xml # Replace "path/to/pom.xml" with the actual path to your pom.xml file
 
          - name:
               Publish to GitHub Packages
