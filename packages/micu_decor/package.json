@@ -1,0 +1,31 @@
+{
+  "name": "@mosque-icu/micu-decor",
+  "version": "1.0.2",
+  "type": "module",
+  "description": "npm package for islamic texts",
+  "main": "index.js",
+  "publishConfig": {
+    "@mosque-icu:registry": "https://npm.pkg.github.com"
+  },
+  "scripts": {
+    "test": "exit 0"
+  },
+  "author": "MosqueICU",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/preset-react": "^7.22.15",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.31",
+    "rollup": "^3.29.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.17",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {}
+}
