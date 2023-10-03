@@ -44,6 +44,14 @@
   <name>MuslimBot</name>
   <url>http://maven.apache.org</url>
 
+<distributionManagement>
+   <repository>
+     <id>github</id>
+     <name>GitHub OWNER Apache Maven Packages</name>
+     <url>https://maven.pkg.github.com/mosqueicuadmin/islamic-ware</url>
+   </repository>
+</distributionManagement>
+
   <properties>
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
