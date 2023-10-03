@@ -1,4 +1,4 @@
-package org.example;
+package discord.bot;
 
 /**
  * Hello world!
