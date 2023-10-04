@@ -26,7 +26,10 @@ async function getRandomHadith(
 		) + 1;
 
 	// Construct the URL for the random Hadith
-	const url = `https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/${randomBook.collection[0].name}/${randomHadithNo}.json`;
+	
+	// const url = `https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/${randomBook.collection[0].name}/${randomHadithNo}.json`;
+	const url = `https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/eng-abudawud/1035.json`;
+
 
 	try {
 		const response = await fetch(url);

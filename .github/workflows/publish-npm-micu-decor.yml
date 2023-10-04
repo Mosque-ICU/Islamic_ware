@@ -1,9 +1,10 @@
 name: NPM Package packages/micu-decor
 
 on:
-   push:
-      branches:
-         - main # Adjust this to match the branch you want to trigger the workflow
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
 
 jobs:
    build:

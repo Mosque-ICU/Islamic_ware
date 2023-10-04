@@ -1,0 +1,24 @@
+version: '3'
+
+services:
+   sql-server:
+      image: mcr.microsoft.com/mssql/server
+      container_name: 'sql-container'
+      restart: always
+      environment:
+         - ACCEPT_EULA=Y
+         - SA_PASSWORD=YourStrongPassword
+      ports:
+         - '1433:1433'
+      volumes:
+         - sql-server-data:/var/opt/mssql
+      networks:
+         - app_network
+
+volumes:
+   sql-server-data:
+      driver: local
+
+networks:
+   app_network:
+      external: true

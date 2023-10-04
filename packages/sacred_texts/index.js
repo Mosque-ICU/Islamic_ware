@@ -1,10 +1,12 @@
 //index.js
 import { hadithLanguages } from './constants/languages';
 import { main_getHadith } from './scripts/getHadith';
+import { capitalFirstLetter } from './util/capitalFirstLetter';
 
-function hadith(key) {
+export async function hadith(key) {
 	switch (key) {
 		case 'random':
+			var res;
 			async function getRandomHadith() {
 				const promises =
 					hadithLanguages.map(
@@ -30,11 +32,10 @@ function hadith(key) {
 										.length >
 										0
 								) {
-									return result;
-								} else {
-									console.error(
-										`Error fetching data for ${language}: Invalid result`
+									console.log(
+										result
 									);
+									res = result;
 								}
 							} catch (error) {
 								console.error(
@@ -47,6 +48,8 @@ function hadith(key) {
 
 				await Promise.all(promises);
 			}
+			getRandomHadith() 
+			return res;
 			break;
 
 		default:
@@ -54,5 +57,3 @@ function hadith(key) {
 			break;
 	}
 }
-
-module.exports = hadith;
