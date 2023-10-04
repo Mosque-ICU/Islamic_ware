@@ -6,7 +6,8 @@
     "start": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "@mosque-icu/sacred_texts": "workspace:1.0.5",
+    "@mosque-icu/sacred_texts": "workspace:*"
+,
     "elysia": "latest",
     "node-cron": "^3.0.2",
     "xml2js": "^0.6.2"

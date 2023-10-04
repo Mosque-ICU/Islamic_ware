@@ -13,7 +13,7 @@ To begin, follow these steps:
    # or
    yarn dev
    # or
-   pnpm dev
+   npm  dev
    ```
 ````
 
