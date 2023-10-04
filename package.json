@@ -12,10 +12,20 @@
     "tsconfig": "*",
     "turbo": "latest"
   },
-  "name": "my-turborepo",
+  "name": "islamic-ware",
   "packageManager": "npm@10.2.0",
   "workspaces": [
     "apps/*",
-    "packages/*"
+    "packages/*",
+    "bot/",
+    "container/*",
+    "docker/*",
+    "graphql/*",
+    "home/*",
+    "server/*",
+    "services/*",
+    "shared/*",
+    "web/*",
+    "tools/*"
   ]
 }
