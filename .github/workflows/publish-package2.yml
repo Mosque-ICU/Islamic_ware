@@ -1,4 +1,4 @@
-name: NPM Package packages/decor
+name: NPM Package packages/micu-decor
 
 on:
    push:
@@ -16,7 +16,7 @@ jobs:
          - name:
               Change to package
               directory
-           working-directory: packages/decor
+           working-directory: packages/micu-decor
            run: |
               npm ci
               npm test
@@ -36,10 +36,9 @@ jobs:
          - name:
               Change to package
               directory
-           working-directory: packages/decor
+           working-directory: packages/micu-decor
            run: |
               npm ci
               npm publish
            env:
               NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-       
