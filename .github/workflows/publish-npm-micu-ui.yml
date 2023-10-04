@@ -19,7 +19,7 @@ jobs:
               directory
            working-directory: packages/interface
            run: |
-              npm shrinkwrap
+         
                npm ci
                npm test
 
@@ -40,7 +40,7 @@ jobs:
               directory
            working-directory: packages/interface
            run: |
-              npm shrinkwrap
+            
               npm ci
               npm publish
            env:
