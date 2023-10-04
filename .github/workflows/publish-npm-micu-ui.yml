@@ -20,8 +20,8 @@ jobs:
            working-directory: packages/interface
            run: |
          
-               npm ci
-               npm test
+               pnpm ci
+               pnpm test
 
    publish-gpr:
       needs: build
@@ -41,7 +41,7 @@ jobs:
            working-directory: packages/interface
            run: |
             
-              npm ci
-              npm publish
+              pnpm ci
+              pnpm publish
            env:
               NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
