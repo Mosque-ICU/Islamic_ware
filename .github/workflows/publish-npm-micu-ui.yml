@@ -1,10 +1,10 @@
 name: NPM Package packages/micu-ui
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+   push:
+      branches: ['main']
+   pull_request:
+      branches: ['main']
 
 jobs:
    build:
@@ -14,12 +14,14 @@ jobs:
          - uses: actions/setup-node@v3
            with:
               node-version: 16
-         - name: Change to package directory
-           working-directory: shared/interface
+         - name:
+              Change to package
+              directory
+           working-directory: packages/interface
            run: |
-             npm shrinkwrap
-              npm ci
-              npm test
+              npm shrinkwrap
+               npm ci
+               npm test
 
    publish-gpr:
       needs: build
@@ -33,8 +35,10 @@ jobs:
            with:
               node-version: 16
               registry-url: https://npm.pkg.github.com/
-         - name: Change to package directory
-           working-directory: shared/interface
+         - name:
+              Change to package
+              directory
+           working-directory: packages/interface
            run: |
               npm shrinkwrap
               npm ci

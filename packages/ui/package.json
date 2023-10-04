@@ -1,0 +1,15 @@
+{
+	"name": "@mosque-icu/micu-ui",
+	"version": "1.0.5",
+	"description": "npm package for islamic texts",
+	"main": "./index.tsx",
+	"types": "./index.tsx",
+	"publishConfig": {
+		"@mosque-icu:registry": "https://npm.pkg.github.com"
+	},
+	"scripts": {
+		"test": "exit 0"
+	},
+	"author": "MosqueICU",
+	"license": "MIT"
+}
