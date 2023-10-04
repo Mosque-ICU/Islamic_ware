@@ -17,11 +17,11 @@ jobs:
          - name:
               Change to package
               directory
-           working-directory: packages/interface
+           working-directory: packages/ui
            run: |
-         
-               pnpm ci
-               pnpm test
+
+              pnpm ci
+              pnpm test
 
    publish-gpr:
       needs: build
@@ -38,9 +38,9 @@ jobs:
          - name:
               Change to package
               directory
-           working-directory: packages/interface
+           working-directory: packages/ui
            run: |
-            
+
               pnpm ci
               pnpm publish
            env:
