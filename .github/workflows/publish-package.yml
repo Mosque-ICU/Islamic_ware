@@ -1,4 +1,4 @@
-name: NPM Package
+name: NPM Package packages/sacred_texts
 
 on:
    push:
