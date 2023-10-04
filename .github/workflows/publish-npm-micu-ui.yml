@@ -1,4 +1,4 @@
-name: NPM Package packages/micu-decor
+name: NPM Package packages/micu-ui
 
 on:
   push:
@@ -15,7 +15,7 @@ jobs:
            with:
               node-version: 16
          - name: Change to package directory
-           working-directory: packages/micu-decor
+           working-directory: shared/interface
            run: |
               npm ci
               npm test
@@ -33,7 +33,7 @@ jobs:
               node-version: 16
               registry-url: https://npm.pkg.github.com/
          - name: Change to package directory
-           working-directory: packages/micu-decor
+           working-directory: shared/interface
            run: |
               npm ci
               npm publish
