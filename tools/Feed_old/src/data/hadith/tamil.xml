@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0">
+  <channel>
+    <title>My RSS Feed</title>
+    <link>https://www.example.com</link>
+    <description>This is a sample RSS feed.</description>
+    <language>en-us</language>
+    <pubDate>Thu, 29 Sep 2023 12:00:00 GMT</pubDate>
+    <lastBuildDate>Thu, 29 Sep 2023 12:00:00 GMT</lastBuildDate>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>ChatGPT RSS Generator</generator>
+    <managingEditor>editor@example.com (Editor Name)</managingEditor>
+    <webMaster>webmaster@example.com (Webmaster Name)</webMaster>
+    <item>
+
+      <title>The Book of Virtues - Hadith 6164</title>
+      <link>https://www.example.com/article2</link>
+      <description>
+        Sa'id b. Jubair reported that it was said to Ibn 'Abbas that Nauf al-Bikali was of the opinion that Moses who went in search of knowledge was not the Moses of Bani Isra'il. He said: Sa'id, did you hear it from him? I said: Yes. Thereupon he said that Nauf had not stated the fact.
+      </description>
+      <pubDate>Thu, 29 Sep 2023 14:00:00 GMT</pubDate>
+    </item>
+    
+  </channel>
+</rss>

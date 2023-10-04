@@ -1,0 +1,18 @@
+{
+  "name": "Feed",
+  "version": "1.0.50",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bun run --watch src/index.ts"
+  },
+  "dependencies": {
+    "elysia": "latest",
+    "node-cron": "^3.0.2",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "latest",
+    "bun-types": "latest"
+  },
+  "module": "src/index.js"
+}

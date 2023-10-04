@@ -1,0 +1,911 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<rss version="2.0">
+  <channel>
+    <title>My RSS Feed</title>
+    <link>https://www.example.com</link>
+    <description>This is a sample RSS feed.</description>
+    <language>en-us</language>
+    <pubDate>Thu, 29 Sep 2023 12:00:00 GMT</pubDate>
+    <lastBuildDate>Thu, 29 Sep 2023 12:00:00 GMT</lastBuildDate>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>ChatGPT RSS Generator</generator>
+    <managingEditor>editor@example.com (Editor Name)</managingEditor>
+    <webMaster>webmaster@example.com (Webmaster Name)</webMaster>
+    <item>
+      <title>The Book of Virtues - Hadith 6164</title>
+      <link>https://www.example.com/article2</link>
+      <description>
+        Sa'id b. Jubair reported that it was said to Ibn 'Abbas that Nauf al-Bikali was of the opinion that Moses who went in search of knowledge was not the Moses of Bani Isra'il. He said: Sa'id, did you hear it from him? I said: Yes. Thereupon he said that Nauf had not stated the fact.
+      </description>
+      <pubDate>Thu, 29 Sep 2023 14:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jami At Tirmidhi</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 47 &lt;/b&gt;  Chapters on Tafsir
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 3069
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Abdullah b. Abbâs (radıyallahü anh)’den rivâyete göre, şöyle demiştir: İnsanlardan bir kısmı Peygamber (sallallahü aleyhi ve sellem)’e gelerek: Ey Allah’ın Rasûlü! dediler. Bizler kendi boğazlayarak öldürdüğümüz hayvanların etinden yiyecek, fakat Allah’ın öldürdüğü hayvanı yemeyecek miyiz? Bunun üzerine Allah En’am sûresi 118 - 121. âyetleri indirdi: “Öyleyse, o sapıkların sözlerine bakmayın da üzerine Allah’ın ismi anılan şeylerden yiyin, eğer gerçekten, O’nun mesajına inanıyorsanız” “Bu sebeple üzerine Allah’ın adı anılmayan şeylerden yemeyin, zira bu gerçekten yoldan çıkmaktır. Çünkü şeytanlar dostlarına, sizinle mücadele etmeleri için fısıldarlar.Eğer onlara uyarsanız biliniz ki, sizler de Allah’tan başka varlıklara, ilahlık yakıştıranlardan olursunuz.” (Ebû Dâvûd, Dahaya: 27) Bu hadis hasen garibtir. Bu hadis başka bir şekilde de yine İbn Abbâs’tan rivâyet edilmiş olup, bazıları bu hadisi Atâ’ b. Sâib’den Saîd b. Cübeyr’den mürsel olarak rivâyet etmişlerdir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Ahmad Muhammad Shakir(Sahih), Al-Albani(Sahih), Bashar Awad Maarouf(Hasan), Zubair Ali Zai(Hasan)</description>
+      <pubDate>Sat, 30 Sep 2023 13:12:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 24 &lt;/b&gt;  Wages (Kitab Al-Ijarah)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 3422
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   İbn Muhayyisa'nın, babasın (Muhayyisa) dan rivayet ettiğine göre; O (Muhayyisa) kan alıcı (haccâm) olarak kiralanma konusunda Rasûlullah'tan izin istedi, ama Rasûlullah bundan nehyetti. Muhayyisa ise sormaya ve izin istemeye devam etti. Nihayet RasûİuIIah (s.a.v.) ona: "Onu (kan alma karşılığı aldığın ücreti), devene Ve kölene yedir" emrini verdi &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Muhyi Al-Din Abdul Hamid(Sahih), Zubair Ali Zai(Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:12:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 15 &lt;/b&gt;  Jihad (Kitab Al-Jihad)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 2557
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   İbn Ömer (r.a.)'den; demiştir ki: "Dışkı yiyen hayvan'a binmek yasaklanmıştır &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Muhyi Al-Din Abdul Hamid(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Isnaad Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:13:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Muwatta Malik</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 51 &lt;/b&gt;  Hair
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1736
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ata b. Yesar şunları anlattı: Resulullah Sallallahu Aleyhi ve Sellem mescidde idi. îçeri saçı sakalı dağınık bir adam girdi. Resulullah Sallallahu Aleyhi ve Sellem eliyle ona: «Çık» diye işaret etti. Sanki saçını ve sakalını düzeltmesini kast ediyordu. Adam da saçını sakalını düzelttikten sonra gelince, Resulullah Sallallahu Aleyhi ve Sellem (onu göstererek): «—Herhangi birinizin şeytan gibi saçı başı dağınık bir halde gelmesinden böyle gelmesi daha iyi değil mi?» buyurdu. Ebu Ömer der ki: Mürselliğinde Malik'ten ihtilaf yoktur. Cabir ve başkalarından manaca mevsul olarak gelmiştir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Salim al-Hilali(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 13:13:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Muwatta Malik</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 42 &lt;/b&gt;  Drinks
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1549
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Enes b. Malik (r.a.)'den: Ebu Ubeyde b. el-Cerrah'a, Ebu Talha el-Ensarî'ye ve Ubey b. Ka'b (r.a.)'e hurma koruğu ile kuru hurmadan yapılmış içki dağıtıyordum. O sırada biri gelip: «— Şarap haram kılındı» deyince, Ebu Talha: «— Ey Enes! Kalk şu şarap testisini kır» dedi. Hemen kalktım, havanı aldım, şarap testisine vurdum. Testi param parça oldu &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Salim al-Hilali(Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:14:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 21 &lt;/b&gt;  Funerals (Kitab Al-Jana'iz)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 3200
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ali b. Şemmâh dedi ki: Ben Mervan'ı Ebû Hureyre'ye: Sen Rasûlullah (a.s.)'i, cenaze namazında hangi duayı okurken işittin? diye sorarken gördüm. (Ebu Hûreyre de) ona: (Aramızda geçen bunca hadiseden sonra ve) benim (sana bunca kırıcı sözleri) söylediğim halde (yine de bana gelip Hz. Nebi'in sünnetiyle ilgili soru soruyorsun öyle) mi? karşılığını verdi. (Mervan da): Evet! dedi. {Ravi Ali b. Şemmâh) dedi ki (Hz. Ebû Hureyre ile Mervan arasında geçen) bu konuşmadan önce aralarında bir münakaşa olmuşdu." Ebû Hureyre de ona: Rasûlullah (s.a.v.): "Ey Allah'ım (bu cenaze'nin) Rabbı Sensin onu Sen yarattın, onu İslam'a Sen eriştirdin. Ruhunu Sen aldın. Gizlisini kapalısını bilen Sensin. Biz Sana (ona) şefaatçi olarak geldik. Onu bağışla" diye dua ederdi cevabını verdi. (Ebu Davud dediki -Şu'be, Ali b. Şemmah'a Osman b. Şemmas, demekle onun isminde yanılmıştır. Ahmedb. İbrahim El-Mevsıli, Ahmed b. Hanbel'le konuşurken ona şöyle) dediğini işittim: Ben Hammad b. Zeyd'le bir mecliste oturupta (onun) o mecliste Abdü'l-Varis ile Ca'fer b. Süleyman'dan (hadis rivayet etmeyi) yasaklamadığını görmedim &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Daif Isnaad), Muhammad Muhyi Al-Din Abdul Hamid(Daif Isnaad), Zubair Ali Zai(Isnaad Hasan)</description>
+      <pubDate>Sat, 30 Sep 2023 13:14:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jami At Tirmidhi</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 12 &lt;/b&gt;  The Book on Suckling
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1157
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ebû Hureyre (r.a.)’den rivâyete göre, şöyle demiştir: Rasûlullah (s.a.v.) şöyle buyurdu: “Çocuk döşek sahibinindir zina edene ise mahrumiyet vardır.” Diğer tahric: Müslim, Rada Tirmîzî: Bu konuda Ömer, Osman, Âişe, Ebû Umâme, Amr b. Hârice, Abdullah b. Amr, Berâ b. Âzib ve Zeyd b. Erkâm’dan da hadis rivâyet edilmiştir. Tirmîzî: Ebû Hüreyre hadisi hasen sahihtir. Peygamber (s.a.v.)’in ashabından bazı ilim adamları uygulamalarını bu hadisle yaparlar. Zührî bu hadisi Saîd b. Müseyyeb’den, Ebû Seleme’den ve Ebû Hüreyre’den rivâyet etmiştir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Ahmad Muhammad Shakir(Sahih), Al-Albani(Sahih), Bashar Awad Maarouf(Hasan Sahih), Zubair Ali Zai(Sahih - Bukhari And Muslim)</description>
+      <pubDate>Sat, 30 Sep 2023 13:15:02 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jami At Tirmidhi</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 47 &lt;/b&gt;  Chapters on Tafsir
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 2963
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   İbn Ömer (r.a.)’den rivâyete göre, şöyle demiştir: “Onlar sabah namazının rûkuunda idiler.” Tirmizî rivâyet etmiştir. 2962'yi okumadıysan oku, zira bu hadis onunla ilgilidir. Bu konuda Amr b. Avf el Müzenî’den, İbn Ömer’den, Imara b. Evs’den ve Enes b. Mâlik’den de hadis rivâyet edilmiştir. Tirmizî: İbn Ömer hadisi hasen sahihtir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Ahmad Muhammad Shakir(Sahih), Al-Albani(Sahih), Bashar Awad Maarouf(Hasan Sahih), Zubair Ali Zai(Sahih - Agreed Upon)</description>
+      <pubDate>Sat, 30 Sep 2023 13:15:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jami At Tirmidhi</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 27 &lt;/b&gt;  Chapters on Righteousness And Maintaining Good Relations With Relatives
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1978
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   İbn Abbâs (r.a.)’den rivâyete göre, Bir adam Rasûlullah (s.a.v.)’in huzurunda rüzgarı lanetledi bunun üzerine Rasûlullah (s.a.v.) şöyle buyurdu: “Rüzgarı lanetleme çünkü o vazifelidir. Her kim lanete hak kazanmayan birine lanet okursa o lanet kendisine döner.” Diğer tahric: Buhârî, Edeb Tirmizî: Bu hadis hasen garibtir. Bişr b. Ömer’den başka bu hadisi müsned olarak rivâyet eden bir kimse bilmiyoruz &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Ahmad Muhammad Shakir(Sahih), Al-Albani(Sahih), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 13:15:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 12 &lt;/b&gt;  Marriage (Kitab Al-Nikah)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 2053
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ebû Musa (r.a.)'dan; dedi ki: Resûlullah (s.a.v.) şöyle buyurdu: "Cariyesini hürriyete kavuşturup da onunla evlenen kimseye iki (kat) ecir vardır &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Muhyi Al-Din Abdul Hamid(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Sahih Bukhari (2544) Sahih Muslim (154 After  1427))</description>
+      <pubDate>Sat, 30 Sep 2023 13:15:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 37 &lt;/b&gt;  Zuhd
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 4155
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ebu Mes'ûd (el-Ensârî) (r.a.)'den şöyle rivayet edilmiştir: Resulullah (Sallallahu Aleyhi ve Sellem) sadaka vermeyi emrederdi. Bunun üzerine (sadaka vermeye mâlî gücü olmayan) herhangi birimiz iki avuç (hurma) getirebilmek için gidip sırtında (ücretle) yük taşırdı. Bu gün ise bunların birisinin yüz bini vardır. (Ebu Mes'ûd'un ravisi) Şakîk demiş ki: Bana öyle geliyor ki Ebu Mes'ûd (bu sözle) kendi şahsını(n mâli durumunu) kasdediyor(du). AÇIKLAMA 4158’de &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Fouad Abd al-Baqi(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Sahih - Agreed Upon)</description>
+      <pubDate>Sat, 30 Sep 2023 13:15:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Muwatta Malik</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 42 &lt;/b&gt;  Drinks
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1545
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Nebi s.a.v.'in zevcesi Aişe r.anha'dan: Resulullah Sallallahu Aleyhi ve Sellem'e Bid’ (bal şerbeti) nin hükmü sorulunca: «Sarhoş edici her içki haramdır» buyurdu &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Salim al-Hilali(Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:16:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 2 &lt;/b&gt;  Prayer (Kitab Al-Salat)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 539
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Abdullah b. Ebi Katade'nin babası (Ebu Katade) vasıtasıyla Nebî (Sallallahu aleyhi ve Sellem)’den rivayet ettiğine göre, (Resulullah (Sallallahu aleyhi ve Sellem) şöyle buyurmuştur: "Namaz için ikamet edildiğinde beni görünceye kadar (ayağa) kalkmayınız" Ebu Davud dedi ki: Bu hadis-i şerifi aynı şekilde Eyyub ile Haccacu's-Savvaf da,Yahya'dan rivayet etmişlerdir. Hişam ed-Destevaî dedi ki: "(Bu hadisi) bana Yahya (mektubunda) yazdı. " Bu hadisi bir de Muaviye b. Sellam ve Ali b. El-Mübarek Yahya'dan rivayet etmiş­ler ve rivayetlerinde (fazla olarak şunu) nakletmişlerdir: "Beni görün­ceye kadar (kalkmayınız ve) acele etmeyiniz" Diğer tahric: Buhari, cum’a, ezan; Müslim, mesacid; Tirmizi, salat; cum’a; Nesaî, imame, ezan; Darimi, salat; Ahmed b. Hanbel, V &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Muhyi Al-Din Abdul Hamid(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Sahih Bukhari (637) Sahih Muslim (604))</description>
+      <pubDate>Sat, 30 Sep 2023 13:16:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jami At Tirmidhi</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 47 &lt;/b&gt;  Chapters on Tafsir
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 3312
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Zeyd b. Erkâm (r.a.)’den rivâyete göre, şöyle demiştir: Amcamla beraber bulunuyordum. Abdullah b. Übey’in kendi adamlarına şöyle dediğini işittim: “Allah’ın Nebiinin yanında bulunanlara hiçbir şey vermeyin ki etrafından dağılıp gitsinler.” “Eğer Medîne’ye dönersek; “Biz üstün olanlar Rasûlullah (s.a.v.) ve beraberindeki aşağılık kimseleri Medîne’den çıkaracağız.” Bunu amcama anlattım. Amcam da durumu Nebi (s.a.v)’e anlattı. Bunun üzerine Nebi (s.a.v), beni çağırdı. Ben de duyduklarımı kendisine söyledim. Sonra Rasûlullah (s.a.v.), Abdullah b. Übey ve adamlarına haber gönderdi. Onlar da söylemediklerine yemin ettiler. Rasûlullah (s.a.v.)’de benim yalancılığıma onun da doğru söylediğine inandı. O güne kadar başıma gelmeyen bir şey o an başıma gelmiş oldu. Eve kapandım, amcam: “Maksadın neydi işte, Rasûlullah (s.a.v.) seni yalancı çıkardı ve sana kızdı” dedi. Sonra Allah, Münafıkûn sûresini indirdi. Bunun üzerine Rasûlullah (s.a.v.), bana haber gönderdi ve bu sûreyi okudu ve şöyle buyurdu: “Allah seni doğruladı.” Diğer tahric Buharî, Tefsir-ül Kur’ân; Müslim, Sıfat-ül Münafıkîn Tirmizî: Bu hadis hasen sahihtir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Ahmad Muhammad Shakir(Sahih), Al-Albani(Sahih), Bashar Awad Maarouf(Hasan Sahih), Zubair Ali Zai(Sahih - Agreed Upon)</description>
+      <pubDate>Sat, 30 Sep 2023 13:17:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 43 &lt;/b&gt;  General Behavior (Kitab Al-Adab)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 4807
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Abdullah İbn Mugaffel'den (rivayet edildiğine göre): Rasûlullah (s.a.v.) (şöyle) buyurmuştur: "Muhakkak ki Allah (kullarına karşı son derece) yumuşak muamele eder ve yumuşaklığı sever, şiddet karşılığında vermediğini yumuşaklık karşılığında verir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Muhyi Al-Din Abdul Hamid(Sahih), Zubair Ali Zai(Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:20:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 36 &lt;/b&gt;  Tribulations
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 3959
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ebu Musa (el-Eş'ari) (r.a.)'den; şöyle demigtir; Resulullah (Sallallahu Aleyhi ve Sellem) bize Kıyamete yakın dönemde şüphesiz bir here olur,» buyurdu. Ebu Musa demiştir ki: Ben: Ya Resulallah! Here nedir? diye sordum. O: «Katildir,» buyurdu. Bunun üzerine bazı müslümanlar: Ya Resulallah! Biz şu anda tek bir yılda müşriklerden şu kadarımı öldürürüz, dediler. Resulullah (Sallallahu Aleyhi ve Sellem) bu söze cevaben: «Herc, müşrikleri öldürmek deglldir. Lakin bazınız bazınızi öldürecek, hatta adam komşusunu, amcasının oğlunu ve akrabasını öldürecektir,» buyurdu. Sonra orada bulunanların bazısı: O gün akıllarınız beraberimizde (yani başımızda) olduğu halde mi (biribirimizi öldüreceğiz)? diye sordu. Resulullah (Sallallahu Aleyhi ve Sellem): «Hayır. O zaman (daki halk)ın çoğunun akılları alınacak ve akılsız bir takım adi insanlar o dönemin adamları olacaktır,» buyurdu. Sonra el-Eş'ari (r.a.) dedi ki: Allah'a yemin ederim ben o vaziyetin bana ve sizlere yetişeceğini (yani o günleri göreceğiinizi) cidden kuvvetle sanırım. Allah'a and olsun ki o vaziyet bize ulaşırsa Nebi (Sallallahu Aleyhi ve Sellem)'in bize tavsiyesine göre ona girdiğimiz gibi (suç işlemeden) çıkmamızdan başka hiç-bir çıkar yol ne benim için ne de sizler için vardır. Not: Bu hadis Zevaid türündendir. AÇIKLAMA 3962’de &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Fouad Abd al-Baqi(Sahih), Zubair Ali Zai(Isnaad Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:20:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 32 &lt;/b&gt;  Dialects and Readings of the Qur'an (Kitab Al-Huruf Wa Al-Qira'at)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 4008
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Aişe (ranha)'den rivayet olunmuştur; dedi ki: (Bir gün) Resulullah (s.a.v)-vahiy geldi. Bunun üzerine ("Bu indirdiğimiz ve hükümlerini üzerinize farz kıldığımız bir suredir"[Nâr 10] mealindeki ayet-i kerimeyi) bize ... (şeklinde) okudu. Ebû Davûd dedi ki: (Urve, Hz. Nebi'in ... kelimesinin râ sını şeddesiz olarak okuduğunu söylemek istiyor) &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih Isnaad), Muhammad Muhyi Al-Din Abdul Hamid(Sahih Isnaad), Zubair Ali Zai(Isnaad Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:20:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jami At Tirmidhi</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 14 &lt;/b&gt;  The Book on Business
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1264
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ebû Hüreyre (radıyallahü anh)’den rivâyete göre, Peygamber (sallallahü aleyhi ve sellem) şöyle buyurdu: “Emaneti sana emanet eden kişiye ver. Sana hainlik edene sen hainlik etme.” (Ebû Dâvûd, Büyü: 79) Bu hadis hasen garibtir. Bazı ilim adamlarının uygulaması bu hadise göre olup şöyle derler: Bir kimsenin bir başkasında bir alacağı olsa alacaklı kimseye borçlunun bir miktar malı geçse alacağı kadar miktarı ondan alma hakkı yoktur. bazı ilim adamları ise buna izin vermektedirler. Sevrî bu görüştedir ve şöyle der: Alacaklının altın alacağı olsa borçluya ait gümüş ele geçirse cins farklılığından dolayı o gümüşlere, alacağı altın yerine el koyup alamaz. Ancak alacaklının eline alacağı altına karşılık borçlunun altınlarından bir miktar geçecek olsa o vakit o altından kendi alacağı kadarına el koyup alabilir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Ahmad Muhammad Shakir(Sahih), Al-Albani(Sahih), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 13:21:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 29 &lt;/b&gt;   Chapters on Food
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 3285
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Muâz bin Enes el-Cühenî (r.a.)'den rivayet edildiğine göre; Nebi (Sallallahu Aleyhi ve Sellem) şöyle buyurmuştur: Kim bir yemek yiyip de (yemekten) sonra; Hamd, benden ne bir hareket ne de bir güç olmaksızın bana bu yemeği veren ve yediren Allah'a mahsustur, derse onun geçmiş (küçük) günahı bağışlanır &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Hasan), Muhammad Fouad Abd al-Baqi(Hasan), Shuaib Al Arnaut(Hasan), Zubair Ali Zai(Isnaad Hasan)</description>
+      <pubDate>Sat, 30 Sep 2023 13:21:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 13 &lt;/b&gt;  The Chapters on Rulings
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 2325
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Câbir bin Abdillah (r.a.)'dan rivayet edildiğine göre; Resulullah (Sallallahu Aleyhi ve Sellem) şöyle buyurdu, demiştir: «Kim, bir yeşil misvak için bile olsa benim şu minber'im yanında bile bile yalan yere yemin ederse, ateşten oturağını hazırlasın.» EBU DAVUD HADİSİ İÇİN TIKLA &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Fouad Abd al-Baqi(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Isnaad Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:22:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 24 &lt;/b&gt;  The Chapters on Jihad
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 2856
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ümmü Atiyye el-Ensâriyye (r.a.)'dan; Şöyle demiştir: Ben Resulullah (Sallallahu Aleyhi ve Sellem)'in beraberinde yedi savaşa gittim. Ben onların eşyaları başında bekler, yemeklerini yapar, yaralıları tedavi eder ve hastalara bakardım &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Fouad Abd al-Baqi(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Sahih Muslim)</description>
+      <pubDate>Sat, 30 Sep 2023 13:22:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 6 &lt;/b&gt;  Chapters Regarding Funerals
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1630
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Enes bin Malik (r.a.)'den rivayet edildiğine göre şöyle demiştir. (Nebi (Sallallahu Aleyhi ve Sellem)'in kızı) Fatıma (r.a.) bana: Ya Enes! Resulullah (Sallallahu Aleyhi ve Sellem)'in üstüne toprak saçmaya gönülleriniz nasıl razı oldu? dedi. Sabit (r.a.)'in Enes (ra.)'den bize tahdis ettiğine göre Resulullah (Sallallahu Aleyhi ve Sellem)'in vefat ettiği zaman Fatıma (r.a.); Ey Cebrail'e vefatını haber verdiğimiz baba! Ey. şaşılacak derecede Rabbine yaklaşmış olan babam! Ey makamı Cennetu'l-Firdevs olan babam! Ey Rabbinin davetine icabet eden babam, diye üzüntüsünü açıklamıştır. Hammad demiştir ki; ben Sabit (r.a.)'i bu hadisi anlattığı zaman gördüm. O kadar ağladı ki kaburgalarının gidip geldiğini gördüm. Diğer tahric: Buhari, Darekutni ve Taberanide hunu rivayet etmişlerdir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Fouad Abd al-Baqi(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Sahih Bukhari)</description>
+      <pubDate>Sat, 30 Sep 2023 13:22:42 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 13 &lt;/b&gt;  The Chapters on Rulings
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 2354
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Enes bin Mâlik (r.a.)'den Şöyle demiştir: Resulullah (Sallallahu Aleyhi ve Sellem) hayatta iken (kişisel yararlarını koruma) açısından akıl ve görüşünde zayıflık bulunan bir adam vardı ve alış veriş ederdi. Onun aile ferdleri Nebi (Sallallahu Aleyhi ve Sellem)'e gelerek: Yâ Resûlallah! Onu malında tasarruf etmekten menet, dediler. Nebi (Sallallahu Aleyhi ve Sellem) de adamı çağırttı ve onu alım satım işinden menetti. (Fakat) adam: Yâ Resûlallah! Ben alım satımdan kendimi tutamam, dedi. Bunun üzerine Resül-i Ekrem (Sallallahu Aleyhi ve Sellem) adama şöyle buyurdu: «O halde alım satım ettiğin zaman (muhatabına): Bunu al (veya, al ve ver) ve (İslâm dininde) aldatmak yoktur, de.» EBU DAVUD HADİSİ VE İZAH İÇİN TIKLA &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih Hadith), Muhammad Fouad Abd al-Baqi(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:23:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 36 &lt;/b&gt;  Tribulations
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 4079
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   “... Ebû Said-i Hudri (radıyallahü anh)'den rivâyet edildiğine göre ; Resûlüllah (sallallahü aleyhi ve sellem) şöyle buyurmuştur: ve Me'cuc (seddi) açılacak ve Allahü teâlâ'nın; "Onlar her tepeden hızla inecekler" ayetinde buyurduğu gibi onlar çıkıp yeryüzünü istila edecekler. Müslümanlar da onlar (ın saldırısın)dan dolayı yerlerini bırakıp geri çekilecekler. Hatta kalan müslümanlar şehirlerine ve karalarına (sığınmış) olacak ve mevagi (deve, sığır, koyun ve keçi) sürülerini yanlarında barındıracaklar (yani mer'aya gönderemiyecekler). Ye'cuc ve Me'cuc (öncüleri) nehire uğrayıp yatağında hiç bir şey kalmayacak şekilde suyunu içip tüketecekler. Olanların arkasında gelen geridekiler oraya uğrayacaklar ve sözcüleri: Şüphesiz bu yerde bir kere su vardı, diyecek. Onlar yeryüzüne hakim olacaklar. Sonra sözcüleri: Şu insanlar yeryüzü halkıdır, işlerini bitirdik. And olsun ki şimdi gök halkı savaşacağız, diyecek. Hatta onlardan biri harbesini (kısa mızrakını) göğe doğru fırlatacak ve harbesi kana bulanmış olarak dönecektir. Bunun üzerine onlar: Biz gök halkını da şüphesiz öldürdük, diyecekler. Onların böyle olduğu sırada Allah aniden deve kurdu sürüsüne benzer hayvanlar gönderecek ve bu hayvanlar onları boyunlarından yakalayacak ve onlar çekirge sürüsünün ölümü gibi olup birbirinin üstüne yığılıp kalacaklar. Sabahleyin müslümanlar onların ses sedasını işitmiyecekler. Bunun üzerine müslümanlar: Kim canını feda edip onların ne yaptığına bakacak? diyecekler. Bunun üzerine müslümanlardan nefsini Ye'cuc ve Me'cuc'a öldürtmeye hazırlamış durumda olan bir adam (sığındığı yerden) inecek ve Ye'cuc ile Me'cuc güruhunu ölmüş olarak bulacak. Bunun üzerine müslümanlara şöyle seslenecek: Dikkat ediniz! Sizleri müjdeliyorum. Düşmanlarınız ölmüşlerdir. Bunun üzerine müslümanlar (sığındıkları yerlerden) dışarı çıkacaklar ve küçükbaş, büyükbaş hayvanlarını salıverecekler &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Hasan Sahih), Muhammad Fouad Abd al-Baqi(Hasan Sahih), Shuaib Al Arnaut(Hasan), Zubair Ali Zai(Isnaad Hasan)</description>
+      <pubDate>Sat, 30 Sep 2023 13:23:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 11 &lt;/b&gt;  The Rites of Hajj (Kitab Al-Manasik Wa'l-Hajj)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 2010
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Usâme b. Zeyd (r.a.)'den; demiştir ki: (Veda) Haccında; Ya Resûlullah yarın nerede konaklayacaksın? diye sordum da; "Akîl bize (Mekke'de içinde barınabileceğimiz) bir ev mi bıraktı?" cevabını verdi. Sonra; "(Yarın) Beni Kinane Hayf'ina (yani) Kureyş'in küfür üzerinde (kalmak üzere) antlaştığı yere yâni Muhassab'a ineceğiz" buyurdu. Bu (antlaşma) Kinâne oğullarının Haşîm oğulları ile evlenmemek, onları (aralarında) barındırmamak ve onlarla alış veriş yapmamak üzere Kureyşle yaptığı antlaşmadır. (Bu hadisin râvilerinden) Zührî dedi ki: (Beni Kinâne) Hayf(ından maksat, Muhassab denilen) vadidir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Muhyi Al-Din Abdul Hamid(Sahih), Zubair Ali Zai(Sahih Bukhari (3058) Sahih Muslim (1351))</description>
+      <pubDate>Sat, 30 Sep 2023 13:23:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jami At Tirmidhi</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 19 &lt;/b&gt;  The Book on Sacrifices
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1520
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ebû Bekre (r.a.)’in babasından rivâyete göre: “Rasûlullah (s.a.v.), hutbe okudu minberden indi iki koç getirtti ve onları kesti.” Diğer tahric: Nesâî, Dahaya; İbn Mâce, Dahaya Tirmizî: Bu hadis hasen sahihtir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Ahmad Muhammad Shakir(Sahih), Al-Albani(Sahih), Bashar Awad Maarouf(Hasan Sahih), Zubair Ali Zai(Sahih Muslim)</description>
+      <pubDate>Sat, 30 Sep 2023 13:24:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 4 &lt;/b&gt;  The Book On The Mosques And The Congregations
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 785
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   (Abdullah) İbn-i Abhas (r.a.)'den şöyle demiştir: Ensarın evleri mescidden uzaktaydı. Yakına gelmek istediler. Bunun üzerine; «Ve biz, onların önden gönderdiklerini ve eserlerini yazarız.» ayeti nazil oldu. İbn-i Abbas demiştir ki: Onlar da (evlerinde) kaldılar." Not: Zevaid'de: Bu hadis mevkuftur. Senedinde İbn-i Harb olan Simak vardır. İbn•i Main ve Ebu Hatim, onu sika saymışlarsa da Ahmed: Onun hadisleri mustaribtir, demiştir. Yakub bin Şeybe de: Simak'ın yalnız İkrimi'den olan rivayeti mustarib olup. başkalarından olan rivayeti yararlıdır, demiş diye bilgi vermiştir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Fouad Abd al-Baqi(Sahih), Shuaib Al Arnaut(Sahih Lighairihi), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 13:24:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 1 &lt;/b&gt;  The Book of Purification and its Sunnah
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 500
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Sehl bin Sa'd Es-Saidi (r.a.)'den: şöyle söylemiştir: Resulullah (Sallallahu aleyhi ve sellem) buyurdular ki: «Süt (içmek) ten dolayı ağzınızı su ile çalkalayınız. Çünkü yağlıdır.» Not: Zevaid'de: Bunun senedindeki ravilerden Abdülmüheymin zayıftır. Buhari hadislerinin münker olduğunu söylemiştir. Bu sebeple isnadı zayıftır, denilmiştir. AÇIKLAMA 501’de &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Fouad Abd al-Baqi(Sahih), Zubair Ali Zai(Hasan)</description>
+      <pubDate>Sat, 30 Sep 2023 13:25:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 34 &lt;/b&gt;  Clothing (Kitab Al-Libas)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 4066
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   (Amr b. Şuayb'ın) dedesi (abdullah b. Amr b. Âs'dan rivayet olunmuştur, dedi ki: Resulullah (s.a.v) ile birlikte (Ezahir dağ yolu denilen) dağ yolundan iniyorduk. (Bir ara) Resulullah (s.a.v) dönüp bana baktı. Benim üzerimde de aspurla boyanmış, tek desenli sade bir giysi vardı. “üzerindeki bu giysi de nedir?" diye sordu. Ben onun bundan hoşlanmadığım hemen anlamıştım. Doğru tandırlarını yakmakta olan ev halkının yanına vardım ve bu elbiseyi tandıra attım. Sonra ertesi gün Hz. Peygamber'in yanına vardım. "Ey Abdullah, o elbiseyi ne yaptın?" dedi. (Ben de yaptıklarımı teker teker) ona anlattım. "Keşke onu aile halkından bazılarına giydirseydin. Çünkü bunda kadınlar için bir sakınca yoktur" buyurdu &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Hasan), Muhammad Muhyi Al-Din Abdul Hamid(Hasan), Shuaib Al Arnaut(Hasan), Zubair Ali Zai(Hasan)</description>
+      <pubDate>Sat, 30 Sep 2023 13:25:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 29 &lt;/b&gt;  Medicine (Kitab Al-Tibb)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 3873
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Simâk'dan rivayet olunduğuna göre; Târik b. Süveyd, Nebi (s.a.v.)'e, (tedavi için) şarap (kullanmayı) sormuş, (Hz. Nebi) onu (bundan) nehyetmiş. Sonra o (bunu) Hz. Nebi'e (tekrar) sormuş. (Hz. Nebi) onu (yine) nehyetmiş. Sonra o, Hz. Nebi'e: Ey Allah'ın Nebii, şarap gerçekten şifadır, demiş. Peygamber (s.a.v.) de: "Hayır, (o şifa değildir) fakat hastalıktır" buyurmuş. Ayrıca bu hadis'i Müslim, eşribe; İbn Mâce, tıb; Tirmizî, tıb; Ahmed b. Hanbel, III, 311, 317, IV, 293, VI, 399. da tahric etti. İzah; 3974 te &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Muhyi Al-Din Abdul Hamid(Sahih), Zubair Ali Zai(Sahih Muslim (1984))</description>
+      <pubDate>Sat, 30 Sep 2023 13:25:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 1 &lt;/b&gt;  Purification (Kitab Al-Taharah)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 353
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   İkrime (r.a.)den rivayet edilmiştir.; "Iraklılardan (bazı) insanlar (İbn Abbas'a) gelip: Ya İbn Abbas, cuma günü gusletmeyi vacib görür müsün? dediler. İbn Abbas,: Hayır, fakat o daha çok temizlik ve gusleden için daha hayırlıdır. Gusletmeyen kimseye de vacib değildir. Size (cuma günü) gusletmenin nasıl başladığını haber vereyim: İnsanlar darlık ve meşakkatte idiler. Yünden (elbiseler) giyerler, bedenen (yük taşıyarak) çalışırlardı. Mescidleri dar, tavanı basıktı, o (tavan) bir gölgelikten ibaretti. Sıcak bir günde, Resulullah (Sallallahu aleyhi ve Sellem) mescide geldi. Yün elbiseler içerisinde insanlar terlemiş, kendilerinden kokular yayılmıştı. Bu kokularla bir birlerine eziyet ediyorlardı. Resulullah (Sallallahu aleyhi ve Sellem) bu kokuyu hissedince: "Ey insanlar, Bugün (cuma günü) olunca yıkanınız.Her biriniz bulabildiği koku ve yağların en güzelini sürünsün” buyurdu. Aradan zaman geçti Şanı yüce Allah, (mallar, elbiseler, hizmetçilerle onlara) bolluk verdi. Müslümanlar yünden başka elbiseler giydiler, (bizzat bedenen) çalışmaya ihtiyaçları kalmadı, mescidleri genişletildi. Böylece bir birlerine eziyet veren ter de kısmen zail oldu. Bu Hadisi kütüb-i sitte müelliflerinden sadece Ebu Davud rivayet etmiştir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Hasan), Muhammad Muhyi Al-Din Abdul Hamid(Hasan), Shuaib Al Arnaut(Hasan), Zubair Ali Zai(Hasan)</description>
+      <pubDate>Sat, 30 Sep 2023 13:26:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan an Nasai</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 1 &lt;/b&gt;  The Book of Purification
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 240
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ümmü Hanî (radıyallahü anha)’dan rivâyete göre: sallallahü aleyhi ve sellem) ile Meymune hamur izleri bulunan bir leğenden su alarak birlikte yıkandılar.) (Müslim, Hayz: 10; Tirmizî, Tahara:) &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Abu Ghuddah(Sahih), Al-Albani(Sahih), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 13:26:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Muwatta Malik</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 37 &lt;/b&gt;  Wills and Testaments
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1455
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Abdullah b. Ömer (r.a)'den rivayete göre, Resulullah Sallallahu Aleyhi ve Sellem şöyle buyurdu: "Vasiyet edilebilecek bir mal'a sahip olan Müslüman kişinin yanında vasiyeti yazılı olmadan iki gece geçirmesi doğru değildir." Diğer tahric: Buharı, Vesaya; Müslim, Vasiyet &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Salim al-Hilali(Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:26:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 23 &lt;/b&gt;  Chapters on Shares of Inheritance
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 2750
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Câbir (bin Abdillah} (r.a.)'den rivayet edildiğine göre; Resulullah (Sallallahu Aleyhi ve Sellem) şöyle buyurdu, demiştir: «Bebek (doğduğunda) istihlâl edince (bağırınca veya hayat belirtisi gösterince) cenaze namazı kılınır ve mirasçı olur.» &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Daif), Muhammad Fouad Abd al-Baqi(Daif), Shuaib Al Arnaut(Daif), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 13:27:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 41 &lt;/b&gt;  Types of Blood-Wit (Kitab Al-Diyat)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 4526
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ebû Seleme b. Abdurrahman ile Süleyman b. Yesâr, Ensâr'dan bazı zâtlardan şöyle (dediklerini) rivayet ettiler: Rasûlullah (s.a.v) Yahudilere, onlardan başlayarak şöyle dedi: "Sizden elli erkek yemin etsin." Yahudiler buna yanaşmadılar. O zaman Ensâra: "Hakkınızı (yemin ederek) kazanınız (arkadaşınızın kanını hak ediniz)" dedi. Onlar da: "Görmediğimiz şeye yemin mi edelim? Ya Rasûlellah!" dediler. Bunun üzerine Rasûlullah Yahudiler aleyhine diyete hükmetti. Çünkü maktul onların arasında bulunmuştu &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Shadh), Muhammad Muhyi Al-Din Abdul Hamid(Shadh), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 13:27:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 28 &lt;/b&gt;  Foods (Kitab Al-At'imah)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 3799
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   (İsa b. Nümeyle'nin) babasından rivayet olunmuştur; dedi ki: Bir gün ben İbn Ömer'in yanında iken, kendisine kirpi (eti) yeme(nin hükmü) soruldu da (bu soruya cevap olmak üzere); "De ki: Bana vahyolunanda (bu haram dediklerinizi) yiyen kimse için haram edilmiş bir şey bulamıyorum..”[En'am 145] (mealindeki) âyeti okudu. (Orada İbn Ömer'in) yanında (bulunan) yaşlı bir zat şöyle dedi: (Ama) ben Ebû Hureyre'yi: Nebi (s.a.v.)'in yanında kirpiden söz edildi de (Hz. Peygamber): "O pis hayvanlardan biridir" buyurdu, derken işittim. Bunun üzerine İbn Ömer; "Eğer Rasûlullah (s.a.v.) bunu söylemişse o onun dediği gibidir; demek ben bilmiyormuşum" dedi &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Daif Isnaad), Muhammad Muhyi Al-Din Abdul Hamid(Daif Isnaad), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 13:27:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Muwatta Malik</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 3 &lt;/b&gt;  Prayer
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 157
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Nafi şöyle rivayet etti: Abdullah b. Ömer (r.a.) yolculukta yalnız sabah namazında ezan okur ve kaamet eder, diğer vakitlerde yalnız kaamet getirirdi ve «— Ezan, cemaatle namaz kılınınca gerekir.» derdi &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Salim al-Hilali(Mauquf Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:27:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Muwatta Malik</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 55 &lt;/b&gt;  The Oath of Allegiance
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1810
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Abdullah b. Dinar şöyle rivayet eder: Abdullah b. Ömer (r.a.) Abdülmelik b. Mervan'a bey'at ettiğini bildiren mektubunda şöyle yazdı: «— Rahman ve rallim olan Allah'ın adıyla! İmdi, Allah'ın kulu, mu'minlerin emin Abdülmelik'e: Sana selam olsun. Ben senin için kendisinden başka ilah olmayan Allah'a hamd ederim. Allah ve Resulünün emirleri üzerine gücüm yettiği kadar seni dinleyip itaat edeceğime söz veriyorum.» &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Salim al-Hilali(Mauquf Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:28:31 GMT</pubDate>
+    </item>
+    <item>
+      <title>Muwatta Malik</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 14 &lt;/b&gt;  The Qibla
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 459
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Süleyman b. Yesar'dan: Ebû Eyyüb el-Ensari hacca gitmek için yola çıktı. Mekke yolu üzerindeki Nazîye'ye gelince bineğini kaybetti. Bayram günü Ömer b. Hattab'ın huzuruna çıktı, olanları anlattı. Ömer (radıyallahü anh) ona: Umre yapan nasıl yaparsa, sen de öyle yap ve ihramdan çık. Ertesi sene hac zamanı gelince tekrar haccet ve kolayına gelenden bir de kurban kes» dedi &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Salim al-Hilali(Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:28:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jami At Tirmidhi</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 2 &lt;/b&gt;  The Book on Salat (Prayer)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 212
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Enes b. Mâlik (r.a.)’den rivâyet edildiğine göre, Rasûlullah (s.a.v.) şöyle buyurdu: “Ezan ile kamet arasında yapılan dua geri çevrilmez.” &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Ahmad Muhammad Shakir(Sahih), Al-Albani(Sahih), Zubair Ali Zai(Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:29:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Muwatta Malik</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 8 &lt;/b&gt;  Prayer in Congregation
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 294
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Abdurrahman b. Ebî Amre eî-Ensari anlatıyor: Osman b. Affan (r.a.) yatsı namazına geldi. Cemaati az görünce mescid'in gerisinde uzandı, cemaatin çoğalmasını bekledi. O sırada îbn Ebî Amre geldi, Hz. Osman'ın yanına oturdu. Osman (r.a.) kim olduğunu sordu. O da kendisini tanıttı. «Kur'an'dan ne kadar biliyorsun?» dedi. Buna da cevap verdikten sonra Hz. Osman ona: «Yatsı namazına cemaate gelen kimse, gecenin yarısını namazla geçirmiş olur. Sabah namazına cemaate gelen de, gecenin tamamını namazla geçirmiş olur,» dedi. Diğer tahric: Müslim, Mesacid &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Salim al-Hilali(Mauquf Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:29:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 36 &lt;/b&gt;  Tribulations
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 3941
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Sa'd (bin Ebi'I-Vakkas) (r.a.)'den rivayet edildigine gore; Resulullah (Sallallahu Aleyhi ve Sellem) şöyle buyurdu, demiştir: Müslümanı sövmek fasıklıktır. Onunla garpışmak da küfürdür.» Not: Zevaid'de şöyle denilmiştir: Sa'd bin Ebi'l-Vakkas (r.a.)'ın bu hadisinin senedi sahlh olup ravileri güvenilir zatlardır &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Fouad Abd al-Baqi(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:30:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 38 &lt;/b&gt;  The Promised Deliverer (Kitab Al-Mahdi)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 4289
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ümmü Seleme (r.a) Rasûlullah (s.a.v.)'den (Mekke ile Medine arasında) batırılacak olanların kıssasını haber verip (şöyle devam etti): "Ya Rasûlullah, bu orduya istemeyerek zorla götürülen ne olacak? dedim. Rasûlullah (s.a.v.): Öbürleriyle birlikte o da batırılacak, ama Kıyamet Günü niyetine göre diriltilir, buyurdu &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Muhyi Al-Din Abdul Hamid(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Sahih Muslim (2882))</description>
+      <pubDate>Sat, 30 Sep 2023 13:47:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Muwatta Malik</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 20 &lt;/b&gt;  Hajj
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 828
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Cabir b. Abdullah'tan: Resulullah Sallallahu Aleyhi ve Sellem Safa'da durduğu zaman üç defa tekbir getirerek, üç defa da: «La ilahe illallahu vahdehu la şerike leh lehul mulk,ve lehul hamd ve huve ala kulli şey'in kadir» der ve dua ederdi. Daha sonra bunun aynını Merve'de de yapardı &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Salim al-Hilali(Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:55:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 14 &lt;/b&gt;  Fasting (Kitab Al-Siyam)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 2413
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Mansur el-Kelbî'den rivayet edildiğine göre; Dıhye b. Halife (r.a.) bir kerre Ramazanda Dimeşk'in bir köyünden, Füstâd'tan Ukbe (veya akabe)ye kadarki bir mesafeye -bu üç mildir-(yolculuğa) çıktı. Sonra o ve onunla beraber bazı insanlar oruçlarını açtılar. Bazıları ise, iftar etmemeyi uygun buldular. Dıhye köyüne dönünce "Vallahi bugün görebileceğime hiç ihtimal vermediğim bir şey gördüm. Şüphesiz bir grub Rasûlullah (s.a.v.)'in ve ashabının yolundan yüz çevirdiler, -bunu oruç tutanlar için söylüyor- Sonra, Allahım! beni yanına al (ruhumu kabzet)" dedi &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Daif), Muhammad Muhyi Al-Din Abdul Hamid(Daif), Shuaib Al Arnaut(Hasan Lighairihi), Zubair Ali Zai(Isnaad Hasan)</description>
+      <pubDate>Sat, 30 Sep 2023 13:55:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 8 &lt;/b&gt;  The Chapters Regarding Zakat
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1802
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Cerir bin Abdillah (r.a.)'dan rivayet edildiğine göre; Resulullah (Sallallahu Aleyhi ve Sellem) şöyle buyurdu, demiştir: «Zekat memuru (mal sahiplerinden) ancak razı olarak döner (dönmelidir.)» Diğer tahric: Müslim, Tirmizi, Ebu Davud ve Nesai de bunu benzer lafızIarla rivayet etmişlerdir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Fouad Abd al-Baqi(Sahih), Shuaib Al Arnaut(Daif), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 13:55:40 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 27 &lt;/b&gt;  Chapters on Slaughtering
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 3171
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ebû Saîd-i Hudrî (r.a.)'den rivayet edildiğine göre: (Bir gün) Nebi (Sallallahu Aleyhi ve Sellem), bir adam'ın yanından geçti. Adam bir davarı kulağından tutup sürüklüyordu. Resulullah (Sallallahu Aleyhi ve Sellem): «Hayvancağızın kulağını bırak da boynunun kenarından tut», buyurdu. Not: Zevaid'de şöylü denilmiştir: Bunun senedinde Musa bin Muhammed bin İbrahim vardır. Bu ravi, zayıftır &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Very Daif Isnaad), Muhammad Fouad Abd al-Baqi(Very Daif Isnaad), Shuaib Al Arnaut(Daif), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 13:55:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 43 &lt;/b&gt;  General Behavior (Kitab Al-Adab)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 4966
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Hz. Câbir'den (rivayet edildiğine göre) Nebi (s.a.v.) şöyle buyurmuştur: "Benim ismimle isimlenmiş olan kimse künyemi de almasın. Künyemi almış olan ismimi almasın." Ebu Dâvud der ki: Bu hadisin manasım İbn Adan babası vasıtası ile Hz. Ebu Hür ey re den rivayet etti. Ebû Zur'a vasıtasıyla da Ebû Hureyre'den rivayet edilmiştir. Ancak diğer iki rivayetle arasında farklı­lık vardır. Abdurrahman fbn Ebi Amre'nin Ebû Hureyre'den rivayeti de böyledir. (Bu rivayette) Abdurrahman'a muhalefet edilmiştir. Bu hadis-i şerifi, Es-Sevrî ile Ibn Cüreyc, Ebu z-Zübeyr'in rivayeti gi­bi rivayet ettiler. Ma'kıl Ibn Ubeydillah ise Ibn Şirin inki gibi rivayet et­ti. Bu hadisde Musa Ibn Yesar'm Ebu Hureyre' den olan rivayeti iki fark­lı şekilde gelmiştir. Bu farklılığın birisi Hammâd İbn Halid'e, diğeri de İbn Ebî Füdeyk' e aittir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Munkar), Muhammad Muhyi Al-Din Abdul Hamid(Munkar), Zubair Ali Zai(Hasan)</description>
+      <pubDate>Sat, 30 Sep 2023 13:56:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jami At Tirmidhi</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 9 &lt;/b&gt;  The Book on Hajj
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 878
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Abdullah b. Amr’dan rivâyete göre, şöyle demiştir: Rasûlullah (s.a.v.)’den işittim şöyle diyordu: “Rükün ve makam Cennetin yakutlarından iki yakuttur ki Allah onların nurunu almıştır. Eğer onların nurunu almamış olsaydı onlar doğu ile batı arasını aydınlatırlardı.” Tirmîzî rivâyet etmiştir. Tirmîzî: Bu hadis Abdullah b. Amr’dan mevkuf yani kendi sözü olarak rivâyet ediliyor. Aynı konuda Enes’den de rivâyet olup garib hadistir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 13:57:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Muwatta Malik</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 29 &lt;/b&gt;  Divorce
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1181
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Urve b. ez-Zubeyr der ki: Adiy oğullarının Zebra adında bir cariyesi, bana cariye iken bir kölenin nikahlısı olduğunu haber verdi ve şöyle dedi: (Ben azad edilince) Nebi Sallallahu Aleyhi ve Sellem'in hanımı Hafsa, beni çağırtarak, «— Sana bir haber vereceğim, —Bir şey de yapmanı istemiyorum—: Kocan sana yaklaşmadan önce nikahını feshetme hakkın vardır. Şayet sana yaklaşırsa bu hakkın elinden gider» dedi. Zebra bunu işitince: «O boş olsun, sonra boş olsun, sonra boş olsun» diyerek üç talak ile kocasını boşadı &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Salim al-Hilali(Mauquf Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 13:57:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Muwatta Malik</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 9 &lt;/b&gt;  Shortening the Prayer
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 388
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ebu Katade el-Ensariden: Resulullah Sallallahu Aleyhi ve Sellem şöyle buyurmuştur: «Herhangi biriniz mescide girdiği zaman oturmadan önce iki rekat namaz (tahiyyetül mescid) kılsın.» &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Salim al-Hilali(Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:57:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 13 &lt;/b&gt;  The Chapters on Rulings
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 2369
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Câbir (r.a.)'den rivayet edildiğine göre: Nebi (Sallallahu Aleyhi ve Sellem) bir şâhidle beraber (davacının) yemini ile (dâvanın subutuna) hükmetmiştir. AÇIKLAMA LİNKİ 2370’te &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Fouad Abd al-Baqi(Sahih), Zubair Ali Zai(Isnaad Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 13:58:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 2 &lt;/b&gt;  Prayer (Kitab Al-Salat)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 789
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ebu Katade babasından; dedi ki: Nebi (Sallallahu aleyhi ve Sellem) şöyle buyurdu: "Ben (çoğu zaman) namaz'a (okumayı) uzatmak niyetiyle dururum da (geriden) bir çocuğun ağladığını duyunca, annesine sıkıntı vermeyeyim diye namazımı kısa keserim." Diğer tahric: Buharî, ezan; Müslim, salat; Tirmizî, salat; Nesaî, İmame; îbn Mace, İkame; Ahmed b. Hanbel, III &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Muhyi Al-Din Abdul Hamid(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Sahih Bukhari (707))</description>
+      <pubDate>Sat, 30 Sep 2023 14:02:52 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 7 &lt;/b&gt;  Prayer (Kitab Al-Salat): Prostration while reciting the Qur'an
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1411
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Abdullah b. Ömer (r.a.)'dan: demiştir ki: Nebi (s.a.v.) Fetih yılında (içinde) secde (âyeti olan bir sûre) okudu. Bunun üzerine bütün ashab secdeye kapandı. Onlardan kimi (hayvana) binmiş, kimi de yere secde eder vaziyette idi. Binmiş halde olan elinin üzerine secde ediyor(du) &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Daif), Muhammad Muhyi Al-Din Abdul Hamid(Daif), Shuaib Al Arnaut(Daif), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 14:03:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 9 &lt;/b&gt;  Zakat (Kitab Al-Zakat)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1700
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Abdullah b. Ebî Müleyke'den rivayet edildiğine göre Âişe (r.anhâ), Resûlullah (s.a.v.)'a bazı fakirlerden söz etti. Ebû Dâvûd dedi ki: Veya Abdullah b. Ebî Müleyke'den başkalarının rivayetine göre "bazı sadakalardan söz etti" Resûllah (s.a.v.) ona: "Ver, sayma, yoksa sana da sayıyla verilir" buyurdu &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Muhyi Al-Din Abdul Hamid(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Isnaad Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 14:03:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 2 &lt;/b&gt;  Prayer (Kitab Al-Salat)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 779
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Semure b. Cündub (namazda) iki defa susulduğunu Peygamber (Sallallahu aleyhi ve Sellem)'den öğrendiğini söylemiştir. (Biri) tekbir aldıktan sonraki sükut, (diğeri de) ‘ğaril mağdubi aleyhim veleddallin...’ (ayetin)i okuduktan sonraki sükut. Semure bunu (böyle) öğrenmişti. (Fakat) İmran b. Husayn buna inanmadı. Bunun üzerine bu mevzuda Übeyy b. Kab'a mektub yazdılar; Ubeyy onlara (yazdığı) mektubunda veyahut onlara (verdiği) cevabında (şöyle demişti): "Semure gerçekten iyi bellemiş &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Daif), Muhammad Muhyi Al-Din Abdul Hamid(Daif), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 14:03:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jami At Tirmidhi</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 1 &lt;/b&gt;  The Book on Purification
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 90
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   İbn Ömer (radıyallahü anh)’den rivâyet edilmiştir: “Rasûlüllah (sallallahü aleyhi ve sellem), idrarını yaparken bir adam O’na selam verdi. O da onun selamını almadı.” (Nesâî, Tahara: 33; İbn Mâce, Tahara: 27) Bu hadis hasen sahihtir. Bizce küçük ve büyük abdest bozana selam vermek hoş karşılanmamıştır. Bir kısım ilim adamları. Bu hadisi böyle tefsir etmişlerdir. Bu hadis bu konuda rivâyet edilenlerin en güzelidir. Bu konuda Muhâcir b. Kunfûz, Abdullah b. Hanzala, Alkame b. Feğva, Câbir ve Berâ b. Âzib’den de hadis rivâyet edilmiştir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Ahmad Muhammad Shakir(Hasan Sahih), Al-Albani(Hasan Sahih), Bashar Awad Maarouf(Hasan Sahih), Zubair Ali Zai(Sahih Muslim)</description>
+      <pubDate>Sat, 30 Sep 2023 16:14:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jami At Tirmidhi</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 25 &lt;/b&gt;  The Book on Food
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1796
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ebû Sa’lebe (r.a.)’den rivâyete göre, şöyle demiştir: Rasûlullah (s.a.v.)’e Mecusilerin tencere ve tabaklarının durumu soruldu da: “Onları tertemiz yıkayın sonra onlar içersinde pişirip yeyin. Ayrıca yırtıcı sivri dişli hayvan etlerinden yemeyi de yasakladı.” Diğer tahric: Ebû Dâvûd, Etıme Tirmizî: Bu hadis Ebû Sa’lebe’nin rivâyeti olarak meşhurdur. Bu hadis değişik şekillerde de kendisinden rivâyet edilmiştir. Ebû Sa’lebe’nin ismi Cersûb’tur. Cürhüm ve Nâşib olduğu da söylenir. Bu hadis Ebû Kılâbe’den, Ebû Esma er Rahabî’den ve Ebû Sa’lebe’den de rivâyet edilmiştir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Ahmad Muhammad Shakir(Sahih), Al-Albani(Sahih), Zubair Ali Zai(Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 16:15:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 0 &lt;/b&gt;  The Book of the Sunnah
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 246
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Cabir bin Abdillah r.a.’den rivayet edildiğine göre şöyle söylemiştir: '' Nebi Sallallahu Aleyhi ve Sellem yürüdüğü zaman sahabiler O’nun önünde yürürlerdi ve O’nun arkasını melekler için boş bırakırlardı. '' Not: Zevaid de: ‘’Bu hais’in isnadında yer alan tüm raviler sika’dır’’ deniyor &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Fouad Abd al-Baqi(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 16:15:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jami At Tirmidhi</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 47 &lt;/b&gt;  Chapters on Tafsir
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 3192
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ebû Saîd el Hudrî (r.a.)’den rivâyete göre, şöyle demiştir: Bedir günü idi Rumlar İranlılara gâlib geldiler bu haber mü’minlerin hoşuna gitmiş ve sevinmişlerdi. Bunun üzerine Rûm sûresi 1-4. ayetleri nazil oldu: “1) Elif, Lâm, Mîm. 2) Bizanslı Rûmlar yenilgiye uğradılar. 3) Bizans ordusu Arapların yurtlarının bulunduğu yakın bir yerde yenildiler. Fakat onlar bu yenilgilerinden sonra, yeniden üstünlük sağlayacaklar. 4) Bir kaç yıl içinde; çünkü karar yetkisi eninde sonunda Allah’a aittir. İşte o gün inananlar sevineceklerdir.” Mü’minler, Rumların İranlılara gâlib gelmesiyle sevinmişlerdi &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Ahmad Muhammad Shakir(Sahih Lighairihi), Al-Albani(Sahih), Bashar Awad Maarouf(Hasan), Zubair Ali Zai(Hasan)</description>
+      <pubDate>Sat, 30 Sep 2023 17:02:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 9 &lt;/b&gt;  Zakat (Kitab Al-Zakat)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1559
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ebû Saîd el-Hudrî'nin merfu' olarak rivayet ettiğine göre, Nebi (s.a.v.): "Beş vesk'ten az olan (hurma, üzüm ve hubûbat)da zekât yoktur.Bir vesk damgalanmış altmış sa'dır" buyurmuştur. İbn Mâce, zekât; Dârimî, zekât; Ahmed b. Hanbel, 111-59. Ebu Davud dediki: Hadisin senedinde geçen Ebu'l-Bahteri, Ebu Saîd'den hadis duymamıştır &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Daif), Muhammad Muhyi Al-Din Abdul Hamid(Daif), Shuaib Al Arnaut(Daif), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 17:02:20 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 42 &lt;/b&gt;  Model Behavior of the Prophet (Kitab Al-Sunnah)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 4610
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Amir İbn Sa'd'ın babasından rivayet edildiğine göre, Rasûlullah (s.a.v.): "Şüphesiz ki müslümanlar arasında en büyük günahkâr müslüman, haram kılınmamış bir hususa dair soru sorup da, (sırf) kendisi soru sorduğu için o hususun insanlara haram kılınmasına sebep olan kişidir" buyurdu &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Muhyi Al-Din Abdul Hamid(Sahih), Zubair Ali Zai(Sahih Bukhari (7289) Sahih Muslim (2358))</description>
+      <pubDate>Sat, 30 Sep 2023 17:02:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 35 &lt;/b&gt;  Combing the Hair (Kitab Al-Tarajjul)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 4162
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Enes b. Mâlik (r.a); demiştir ki : Resûlullah (s.a.v.)'iri sûkkesi (güzel bir esans)'ı vardı, ondan sürünürdü. Sûkke: Değerli bir esans çeşididir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Muhyi Al-Din Abdul Hamid(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Isnaad Hasan)</description>
+      <pubDate>Sat, 30 Sep 2023 17:03:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 2 &lt;/b&gt;  Prayer (Kitab Al-Salat)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 831
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Sehl b. Sa'd es-Saidî (r.a.)'den; demiştir ki: Bir gün biz Kur'an-i Kerim okurken Nebi (Sallallahu aleyhi ve Sellem) yanımıza çıkageldi (ve bizi bu halde görünce); "Allah'a hamdolsun, her ne kadar sizin içinizde kırmızısı, beyazı ve siyahı bulunuyorsa da, Allah'ın Kitabı birdir. Onu ok gibi dosdoğru okuyup (fakat) ecrini dünyada alacak ve ahirete bırakmayacak kavimler gelmeden o'nu (işte böyle) okuyunuz" buyurdu. Diğer tahric: Ahmed b. Hanbel, III, 146, 153, 357, 397; V &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Hasan Sahih), Muhammad Muhyi Al-Din Abdul Hamid(Hasan Sahih), Shuaib Al Arnaut(Hasan), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 17:04:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jami At Tirmidhi</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 25 &lt;/b&gt;  The Book on Food
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1796
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ebû Sa’lebe (r.a.)’den rivâyete göre, şöyle demiştir: Rasûlullah (s.a.v.)’e Mecusilerin tencere ve tabaklarının durumu soruldu da: “Onları tertemiz yıkayın sonra onlar içersinde pişirip yeyin. Ayrıca yırtıcı sivri dişli hayvan etlerinden yemeyi de yasakladı.” Diğer tahric: Ebû Dâvûd, Etıme Tirmizî: Bu hadis Ebû Sa’lebe’nin rivâyeti olarak meşhurdur. Bu hadis değişik şekillerde de kendisinden rivâyet edilmiştir. Ebû Sa’lebe’nin ismi Cersûb’tur. Cürhüm ve Nâşib olduğu da söylenir. Bu hadis Ebû Kılâbe’den, Ebû Esma er Rahabî’den ve Ebû Sa’lebe’den de rivâyet edilmiştir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Ahmad Muhammad Shakir(Sahih), Al-Albani(Sahih), Zubair Ali Zai(Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 17:04:10 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 31 &lt;/b&gt;  Chapters on Medicine
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 3507
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ebû Hureyre (r.a.j'den rivayet edildiğine göre; Resulullah (Sallallahu Aleyhi ve Sellem) şöyle buyurmuştur: «Göz (yâni nazar değme işi) hak (yâni bir gerçek)dir.» &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Fouad Abd al-Baqi(Sahih), Zubair Ali Zai(Isnaad Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 17:05:01 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jami At Tirmidhi</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 13 &lt;/b&gt;  The Book on Divorce and Li'an
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1175
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Yunus b. Cübeyr (r.a.)’dan rivâyete göre, şöyle demiştir: Abdullah b. Ömer’e: “Hayız halinde karısını boşayan kişinin durumundan sordum.” Dedi ki: “Abdullah b. Ömer’i tanır mısın? O da karısını hayızlı iken boşamıştı.” Sonra Ömer Peygamber (s.a.v.)’e sordu: O’da: “Karısına dönmesini emretmişti.” Yunus diyor ki: O halde bu boşama geçerli midir? dedim. İbn Ömer diyor ki: “Niçin geçerli olmasın? İbn Ömer acizlik gösterse ve ahmaklık etse boşama geçersiz mi olmalı?” Diğer tahric: Buhârî, Talak; Müslim, Talak 1176’ye de bak &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Ahmad Muhammad Shakir(Sahih), Al-Albani(Sahih), Zubair Ali Zai(Sahih - Agreed Upon)</description>
+      <pubDate>Sat, 30 Sep 2023 17:05:50 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 28 &lt;/b&gt;  Foods (Kitab Al-At'imah)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 3746
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Şu (bir önceki 3745. hadisin sonunda anlatılan) olayda (yine) Katâde yoluyla Sâid b. el-Müseyyeb'den (şu şekilde de rivayet olunmuştur: Katâde) dedi ki: (Saîd) üçüncü gün de çağrıldı (fakat gitmedi) ve (gelen) davetçiyi taşladı &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Daif), Muhammad Muhyi Al-Din Abdul Hamid(Daif), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 17:06:32 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 25 &lt;/b&gt;  Chapters on Hajj Rituals
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 2954
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ya'Iâ (bin Ümeyye et-Temîmî) (r.a.)'den; Şöyle demiştir: Nebi (Sallallahu Aleyhi ve Sellem) ıztıbâ'lı olarak tavaf etti &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Hasan), Muhammad Fouad Abd al-Baqi(Hasan), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 17:06:51 GMT</pubDate>
+    </item>
+    <item>
+      <title>Jami At Tirmidhi</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 27 &lt;/b&gt;  Chapters on Righteousness And Maintaining Good Relations With Relatives
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1993
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Enes b. Mâlik (r.a.)’den rivâyete göre, Rasûlullah (s.a.v.) şöyle buyurmuştur: “Geçersiz ve boş olan yalan söylemeyi kim terk ederse Cennetin etrafında bir köşk yaptırılır. Kim de haklı olduğu halde münakaşayı ve tartışmayı terk ederse Cennetin ortasında bir köşk yaptırılır. Kim de ahlakını güzelleştirirse ona da Cennetin en yüksek bölgesinde bir köşk yaptırılır.” Diğer tahric: İbn Mâce, Mukaddime Tirmizî: Bu hadis hasen olup Seleme b. Verdan’ın, Enes’den yaptığı rivâyetiyle bilmekteyiz &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Ahmad Muhammad Shakir(Daif), Al-Albani(Daif), Bashar Awad Maarouf(Batil), Zubair Ali Zai(Daif)</description>
+      <pubDate>Sat, 30 Sep 2023 17:07:30 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 13 &lt;/b&gt;  Divorce (Kitab Al-Talaq)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 2285
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Ebû Seleme b. Abdirrahman'dan rivayet edildiğine göre, Fâtıma bint Kays, ona Ebû Hafs b. el~Muğire'nin kendisini üç talakla boşadığını söyledi. (Hadîsin bundan sonraki kısmında Yahya b. Ebî Kesir bu mevzuda Ebû Seleme vasıtasıyla Fâtıma bint Kays'dan bir önceki) hadîsi nakletmiştir ve rivayetin sonunda şu cümleler de vardır: Halid b. Velid'le benî Manzum'dan bir kişi, Peygamber sallallâhu aleyhi ve sellem'e geldiler ve; Ey Allah'ın Nebii Ebu Hafs b. el-Muğîre karısını üç talakla boşadı ve ona az bir nafaka bıraktı dediler. Rasûl-i Ekrem de; "Ona nafaka yoktur" buyurdu. Daha sonra Yahya b. Ebî Kesir hadîsin kalan kısmını sonuna kadar nakletti. Bir önceki Mâlik hadîsi bu hadîsten daha tamdır &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Muhyi Al-Din Abdul Hamid(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Isnaad Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 17:08:11 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 30 &lt;/b&gt;  Chapters on Drinks
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 3422
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   İbn-i Abbâs (r.a.)'dan: Şöyle demiştir: Ben, Resulullah (Sallallahu Aleyhi ve Sellem)'e zem-zem ikram ettim. O, ayakta içti. Râvî demiştir ki: Sonra ben bunu İkrime'ye anlattım. İkrime O'nun öyle yapmadığına (Yâni Resulullah (Sallallahu Aleyhi ve Sellem)'in ayakta Zem-zem içmediğine) Allah'ın adı ile yemin etti &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Fouad Abd al-Baqi(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Sahih - Agreed Upon)</description>
+      <pubDate>Sat, 30 Sep 2023 17:08:21 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Ibn Majah</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 7 &lt;/b&gt;  Fasting
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1773
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Abdullah bin Ömer (r.a.)'dan: Şöyle demiştir: Resulullah (Sallallahu Aleyhi ve Sellem) Ramazan'ın son on gecesi itikaf ederdi. (Ravi) Nafi' demiştir ki: Abdullah bin Ömer (r.a.) Resulullah (Sallallahu Aleyhi ve Sellem)'in itikaf ettiği (Mesciddeki yeri bana gösterdi. Diğer tahric. Müslim, Ebu Davud ve Beyhaki de bunu rivayet etmişlerdir. AÇIKLAMA 1774’te) &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Fouad Abd al-Baqi(Sahih), Zubair Ali Zai(Sahih - Bukhari And Muslim)</description>
+      <pubDate>Sat, 30 Sep 2023 17:08:41 GMT</pubDate>
+    </item>
+    <item>
+      <title>Sunan Abu Dawud</title>
+      <link>https://www.mosque.icu</link>
+      <description>&lt;b&gt; 11 &lt;/b&gt;  The Rites of Hajj (Kitab Al-Manasik Wa'l-Hajj)
+ &lt;br&gt;&lt;/br&gt;
+ &lt;b&gt;
+Hadith 1750
+&lt;/b&gt;
+ &lt;br&gt; &lt;/br&gt;
+   Nebi (s.a.v.)'in zevcesi Âişe (r.anha)'dan rivayet edildiğine göre, Resûlullah (s.a.v.) Veda Haccı'nda ailesi için bir sığır kestirmiştir &lt;br&gt;&lt;/br&gt;  &lt;b&gt; Grades of authenticity &lt;/b&gt; Al-Albani(Sahih), Muhammad Muhyi Al-Din Abdul Hamid(Sahih), Shuaib Al Arnaut(Sahih), Zubair Ali Zai(Sahih)</description>
+      <pubDate>Sat, 30 Sep 2023 17:08:50 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
