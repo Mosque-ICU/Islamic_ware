@@ -17,6 +17,7 @@ jobs:
          - name: Change to package directory
            working-directory: shared/interface
            run: |
+             npm shrinkwrap
               npm ci
               npm test
 
@@ -35,6 +36,7 @@ jobs:
          - name: Change to package directory
            working-directory: shared/interface
            run: |
+              npm shrinkwrap
               npm ci
               npm publish
            env:
