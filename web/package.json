@@ -1,10 +1,9 @@
 {
-  "name": "my-app",
+  "name": "web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "hossam": "python3 rec.py",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
