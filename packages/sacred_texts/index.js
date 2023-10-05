@@ -1,54 +1,27 @@
-//index.js
-import { hadithLanguages } from './constants/languages';
-import { main_getHadith } from './scripts/getHadith';
-import { capitalFirstLetter } from './util/capitalFirstLetter';
+import {getRandomHadith} from "./main/getRandomHadith";
 
-export async function hadith(key) {
+//index.js
+
+export async function hadith(key, limit) {
+
 	switch (key) {
 		case 'random':
-			var res;
-			async function getRandomHadith() {
-				const promises =
-					hadithLanguages.map(
-						async (language) => {
-							try {
-								const result =
-									await main_getHadith(
-										capitalFirstLetter(
-											language
-										)
-									);
-								if (
-									result &&
-									result
-										.hadiths[0]
-										.text
-										.length >
-										5 &&
-									result.metadata &&
-									result
-										.hadiths[0]
-										.grades
-										.length >
-										0
-								) {
-									console.log(
-										result
-									);
-									res = result;
-								}
-							} catch (error) {
-								console.error(
-									`Error fetching data for ${language}:`,
-									error
-								);
-							}
-						}
-					);
+			return  getRandomHadith()
+			break;
 
-				await Promise.all(promises);
-			}
-			getRandomHadith() 
+		default:
+			// this can have get using key var
+			break;
+	}
+}
+
+// this function should only be called from secure enviroments 
+export async function rss(key,language) {
+	switch (key) {
+		case 'append':
+			return  console.log(process.env.RSS_SECRET);
+			break;
+				case 'read':
 			return res;
 			break;
 
