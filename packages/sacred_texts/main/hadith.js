@@ -1,8 +1,8 @@
-import main_getHadith from './main_getHadith'; // Assuming you have this import
-import capitalFirstLetter from './capitalFirstLetter'; // Assuming you have this import
-import { hadithLanguages } from './constants/languages';
+import {capitalFirstLetter} from '../util/capitalFirstLetter'; // Assuming you have this import
+import { hadithLanguages } from '../constants/languages';
+import { main_getHadith } from '../scripts/getHadith';
 
-const getRandomHadith = async () => {
+export async function getRandomHadith(){
   let res; // Initialize the result variable
 
 
@@ -29,4 +29,3 @@ const getRandomHadith = async () => {
   return res; // Return the result after all promises are resolved
 };
 
-export default {getRandomHadith};

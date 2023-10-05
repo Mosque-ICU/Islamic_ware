@@ -1,4 +1,4 @@
-import {getRandomHadith} from "./main/getRandomHadith";
+import {getRandomHadith} from "./main/hadith";
 
 //index.js
 

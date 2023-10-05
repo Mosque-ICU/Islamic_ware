@@ -17,7 +17,7 @@ jobs:
          - name:
               Change to package
               directory
-           working-directory: packages/ui
+           working-directory: shared/ui
            run: |
 
               npm ci
@@ -38,7 +38,7 @@ jobs:
          - name:
               Change to package
               directory
-           working-directory: packages/ui
+           working-directory: shared/ui
            run: |
 
               npm ci
