@@ -6,14 +6,12 @@
     "start": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "@mosque-icu/sacred_texts": "workspace:*"
-,
+    "@mosque-icu/sacred_texts": "1.0.5",
     "elysia": "latest",
     "node-cron": "^3.0.2",
     "xml2js": "^0.6.2"
   },
   "devDependencies": {
-    "@flydotio/dockerfile": "latest",
     "bun-types": "latest"
   },
   "module": "src/index.js"
