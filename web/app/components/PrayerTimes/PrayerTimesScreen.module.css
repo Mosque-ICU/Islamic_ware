@@ -1,0 +1,29 @@
+.leftView {
+  width: 60%;
+}
+
+.rightView {
+  width: 40%;
+}
+.fullView {
+  width: 100%;
+}
+
+.wrapper {
+  flex-wrap: nowrap;
+}
+
+@media screen and (max-width: 1000px) {
+  .leftView {
+    width: 100%;
+  }
+
+  .rightView {
+    width: 100%;
+    overflow-x: scroll;
+  }
+
+  .wrapper {
+    flex-wrap: wrap;
+  }
+}
