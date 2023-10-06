@@ -10,5 +10,7 @@
 		"test": "exit 0"
 	},
 	"author": "MosqueICU",
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+	}
 }
