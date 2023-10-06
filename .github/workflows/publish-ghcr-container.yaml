@@ -1,10 +1,10 @@
 name: Docker Image CI for GHCR
 
 on:
- push:
-    branches: [ "main" ]
- pull_request:
-    branches: [ "main" ]
+   push:
+      branches: ['main']
+   pull_request:
+      branches: ['main']
 
 jobs:
    build_and_publish:
@@ -17,16 +17,16 @@ jobs:
               Build and push the image
               (rss-server)
            run: |
-              cd packages/docker/server/rss-server
+              cd container/rss-server
               docker login --username mosque-icu --password ${{ secrets.GH_PAT }} ghcr.io 
               docker build . --tag ghcr.io/mosque-icu/rss-server-ghcr:latest 
               docker push ghcr.io/mosque-icu/rss-server-ghcr:latest
 
-         - name:
-              Build and push the image
-              (rss-cron)
-           run: |
-              cd packages/docker/server/rss-cron  
-              docker login --username mosque-icu --password ${{ secrets.GH_PAT }} ghcr.io 
-              docker build . --tag ghcr.io/mosque-icu/rss-cron-ghcr:latest 
-              docker push ghcr.io/mosque-icu/rss-cron-ghcr:latest
+         # - name:
+         #      Build and push the image
+         #      (rss-cron)
+         #   run: |
+         #      cd container/rss-cron
+         #      docker login --username mosque-icu --password ${{ secrets.GH_PAT }} ghcr.io
+         #      docker build . --tag ghcr.io/mosque-icu/rss-cron-ghcr:latest
+         #      docker push ghcr.io/mosque-icu/rss-cron-ghcr:latest
