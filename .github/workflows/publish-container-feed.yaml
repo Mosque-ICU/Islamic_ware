@@ -1,4 +1,4 @@
-name: Docker Image CI for GHCR
+name: Docker Image CI for Feed
 
 on:
    push:
@@ -17,7 +17,7 @@ jobs:
               Build and push the image
               (Feed)
            run: |
-              cd container/tools/Feed
+              cd tools/Feed
               docker login --username mosque-icu --password ${{secrets.GITHUB_TOKEN}} ghcr.io
               docker build . --tag ghcr.io/mosque-icu/Feed:latest
               docker push ghcr.io/mosque-icu/Feed:latest
