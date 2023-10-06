@@ -18,7 +18,7 @@ jobs:
               (rss-server)
            run: |
               cd container/rss-server
-              docker login --username mosque-icu --password ${{ secrets.GH_PAT }} ghcr.io 
+              docker login --username mosque-icu --password ${{secrets.GITHUB_TOKEN}} ghcr.io 
               docker build . --tag ghcr.io/mosque-icu/rss-server-ghcr:latest 
               docker push ghcr.io/mosque-icu/rss-server-ghcr:latest
 
@@ -27,6 +27,6 @@ jobs:
          #      (rss-cron)
          #   run: |
          #      cd container/rss-cron
-         #      docker login --username mosque-icu --password ${{ secrets.GH_PAT }} ghcr.io
+         #      docker login --username mosque-icu --password ${{secrets.GITHUB_TOKEN}} ghcr.io
          #      docker build . --tag ghcr.io/mosque-icu/rss-cron-ghcr:latest
          #      docker push ghcr.io/mosque-icu/rss-cron-ghcr:latest
