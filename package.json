@@ -16,7 +16,6 @@
   "packageManager": "npm@10.2.0",
   "workspaces": [
     "apps/*",
-    "packages/*",
     "bot/",
     "container/*",
     "docker/*",
