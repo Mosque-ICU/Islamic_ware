@@ -1,6 +1,6 @@
-# Commit
+# Ahadith
 
-Commit is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+Ahadith is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
 
 ## Getting started
 
@@ -38,11 +38,11 @@ The template is built as a pretty standard Next.js website, but using the `src` 
 
 ### Title and metadata
 
-You can update your site's metadata in `./src/app/layout.jsx`.
+You can update your site's metadata in `./src/app/layout.tsx`.
 
 ### Hero content
 
-The main hero section for the site that includes your logo, headline, description, and links are all located in `./src/components/Intro.jsx`.
+The main hero section for the site that includes your logo, headline, description, and links are all located in `./src/components/Intro.tsx`.
 
 ### Adding changelog entries
 
@@ -62,13 +62,13 @@ Your content...
 
 ### Newsletter
 
-You can find the newsletter sign up form in `./src/components/SignUpForm.jsx` — if you have a newsletter you'll want to wire this up with whatever mailing list software you use to get it to actually work.
+You can find the newsletter sign up form in `./src/components/SignUpForm.tsx` — if you have a newsletter you'll want to wire this up with whatever mailing list software you use to get it to actually work.
 
 ### RSS feed
 
 The site uses a [route handler](https://nextjs.org/docs/app/building-your-application/routing/router-handlers) to automatically generate an RSS feed at run time based on the rendered home page.
 
-You can edit the metadata for the feed (like the title and description) in `./src/app/feed.xml/route.js`.
+You can edit the metadata for the feed (like the title and description) in `./src/app/feed.xml/route.ts`.
 
 Make sure to set your `NEXT_PUBLIC_SITE_URL` environment variable as the RSS feed needs this to generate the correct links for each entry.
 
