@@ -1,32 +1,29 @@
-import {getRandomHadith} from "./main/hadith";
+import { getRandomHadith } from "./main/hadith";
 
-//index.js
-
-export async function hadith(key, limit) {
-
-	switch (key) {
-		case 'random':
-			return  getRandomHadith()
-			break;
-
-		default:
-			// this can have get using key var
-			break;
-	}
+export async function hadith({ language, limit }) {
+  const result = await getRandomHadith({ language, limit });
+  return result;
 }
 
-// this function should only be called from secure enviroments 
-export async function rss(key,language) {
-	switch (key) {
-		case 'append':
-			return  console.log(process.env.RSS_SECRET);
-			break;
-				case 'read':
-			return res;
-			break;
+export async function rss(key) {
+  switch (key) {
+    case 'append':
+      console.log("RSS Secret:", process.env.RSS_SECRET);
+      return;
 
-		default:
-			// this can have get using key var
-			break;
-	}
+    case 'read':
+      console.log("Reading RSS data");
+      // Define 'res' before returning it here.
+      return res;
+
+case 'retrieve':
+      console.log("Reading RSS data");
+      // Define 'res' before returning it here.
+      return res;
+
+
+    default:
+      // Add logic for handling other cases if needed.
+      break;
+  }
 }
