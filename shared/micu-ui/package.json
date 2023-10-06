@@ -1,8 +1,9 @@
 {
-	"name": "micu-ui",
+	"name": "@mosque-icu/micu-ui",
 	"version": "0.0.0",
 	"main": "./index.tsx",
 	"types": "./index.tsx",
+	"description": "npm package for ui",
 	"license": "MIT",
 	"publishConfig": {
 		"@mosque-icu:registry": "https://npm.pkg.github.com"
