@@ -1,0 +1,34 @@
+name: Publish sacred_texts to npmjs
+
+on:
+   push:
+      branches:
+         - main
+   pull_request:
+      branches:
+         - main
+
+jobs:
+   build:
+      runs-on: ubuntu-latest
+      steps:
+         - name: Checkout code
+           uses: actions/checkout@v2
+
+         - name: Setup Node.js
+           uses: actions/setup-node@v2
+           with:
+              node-version: '16' # Use the desired Node.js version
+              registry-url: 'https://registry.npmjs.org'
+
+         - name:
+              Change to package
+              directory
+           working-directory: packages/sacred_texts
+           run: |
+              npm ci
+              npm publish
+           env:
+              NODE_AUTH_TOKEN:
+                 ${{ secrets.NODE_TOKEN
+                 }}
