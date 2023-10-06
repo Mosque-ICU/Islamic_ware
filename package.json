@@ -18,7 +18,6 @@
 	"workspaces": [
 		"apps/*",
 		"bot/",
-		"packages/*",
 		"container/*",
 		"docker/*",
 		"graphql/*",
