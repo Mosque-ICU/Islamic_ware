@@ -1,0 +1,23 @@
+name: Docker Image CI for GHCR
+
+on:
+   push:
+      branches: ['main']
+   pull_request:
+      branches: ['main']
+
+jobs:
+   build_and_publish:
+      runs-on: ubuntu-latest
+      steps:
+         - name: Checkout code
+           uses: actions/checkout@v2
+
+         - name:
+              Build and push the image
+              (Feed)
+           run: |
+              cd container/tools/Feed
+              docker login --username mosque-icu --password ${{secrets.GITHUB_TOKEN}} ghcr.io
+              docker build . --tag ghcr.io/mosque-icu/Feed:latest
+              docker push ghcr.io/mosque-icu/Feed:latest
