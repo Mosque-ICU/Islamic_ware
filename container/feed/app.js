@@ -14,9 +14,11 @@ const hadithBooks = ['Sahih al-Bukhari', 'Sahih Muslim', 'Sunan Abu Dawood', 'Su
 // you can access routes like /arabic/hadith/Sahih al-Bukhari, /english/hadith/Sunab Abu Dawood
 
 // Route for a Hadith or quran in a specific language
+const path = require('path'); // Import the 'path' module
+
 app.get('/:language/:type/', (req, res) => {
   const { language, type } = req.params;
-  const xmlFilePath = `data/feeds/${language}/${type}.xml`;
+  const xmlFilePath = path.join(__dirname, 'data', 'feeds', language, `${type}.xml`);
   res.type('xml').sendFile(xmlFilePath);
 });
 
