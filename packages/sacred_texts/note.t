@@ -1,1 +1,0 @@
-this will handle the api and all of the computational side of the hadith rss feed 
