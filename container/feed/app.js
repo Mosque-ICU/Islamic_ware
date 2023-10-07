@@ -2,6 +2,24 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 8080;
 
+const type = ['quran', 'hadith',]
+const languages = ['arabic', 'bengali', 'english', 'french', 'indonesian', 'russian', 'tamil', 'turkish', 'urdu'];
+const hadithBooks = ['Sahih al-Bukhari', 'Sahih Muslim', 'Sunan Abu Dawood', 'Sunan at-Tirmidhi'];
+
+// Route for a Hadith book in a specific language
+// app.get('/:language/hadith/:book', (req, res) => {
+//   const { language, book } = req.params;
+//   res.send(`Welcome to the ${language} language page for ${book}`);
+// });
+// you can access routes like /arabic/hadith/Sahih al-Bukhari, /english/hadith/Sunab Abu Dawood
+
+// Route for a Hadith or quran in a specific language
+app.get(':language/:type/', (req, res) => {
+  const { language, type } = req.params;
+  res.type('xml').send(data/feeds/[language]/[type].xml);
+});
+// you can access routes like /arabic/hadith/Sahih al-Bukhari, /english/hadith/Sunab Abu Dawood
+
 app.get("/", (req, res) => res.type('html').send(html));
 
 const server = app.listen(port, () => console.log(`Example app listening on port ${port}!`));
