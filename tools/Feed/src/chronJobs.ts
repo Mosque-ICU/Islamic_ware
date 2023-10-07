@@ -1,4 +1,4 @@
-import { hadith } from '@mosque-icu/sacred_texts';
+import { hadith } from 'sacred_texts';
 import cron from 'node-cron';
 
 export function chronJobs() {
