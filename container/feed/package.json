@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Express Hello World on Render",
   "main": "app.js",
-  "author": "Render Developers",
+  "author": "MosqueICU",
   "license": "MIT",
   "private": false,
   "scripts": {
