@@ -1,13 +1,17 @@
-const express = require("express");
+
+const express = require('express');
 const app = express();
 const port = process.env.PORT || 8080;
+// const { getRandomHadith } = require('sacred_texts');
+// const { Request, Response, NextFunction } = require('express');
 
-const type = ['quran', 'hadith',]
-const languages = ['arabic', 'bengali', 'english', 'french', 'indonesian', 'russian', 'tamil', 'turkish', 'urdu'];
-const hadithBooks = ['Sahih al-Bukhari', 'Sahih Muslim', 'Sunan Abu Dawood', 'Sunan at-Tirmidhi'];
+// import express from 'express';
+import { getRandomHadith } from 'sacred_texts';
+import { Request, Response, NextFunction } from 'express';
+
 
 // Route for a Hadith book in a specific language
-// app.get('/:language/hadith/:book', (req, res) => {
+// app.get('/:language/hadith/:book', (req: Express.Request, res) => {
 //   const { language, book } = req.params;
 //   res.send(`Welcome to the ${language} language page for ${book}`);
 // });
@@ -16,15 +20,48 @@ const hadithBooks = ['Sahih al-Bukhari', 'Sahih Muslim', 'Sunan Abu Dawood', 'Su
 // Route for a Hadith or quran in a specific language
 const path = require('path'); // Import the 'path' module
 
-app.get('/:language/:type/', (req, res) => {
+app.get('/:language/:type/', (req: Request, res: Response) => {
   const { language, type } = req.params;
   const xmlFilePath = path.join(__dirname, 'data', 'feeds', language, `${type}.xml`);
   res.type('xml').sendFile(xmlFilePath);
 });
 
+
 // you can access routes like /arabic/hadith/Sahih al-Bukhari, /english/hadith/Sunab Abu Dawood
 
-app.get("/", (req, res) => res.type('html').send(html));
+app.get("/", (req: Request, res: Response) => res.type('html').send(html));
+
+
+// Global variable to store the last execution time
+let lastExecutionTime:any = null;
+
+// Middleware to check the time difference
+app.use("/chron", (req: Request, res: Response, next:NextFunction) => {
+  const currentTime: any = new Date();
+  
+  // If lastExecutionTime is not set or it has been more than 3 hours, log a message
+  if (!lastExecutionTime || (currentTime - lastExecutionTime) >= 3 * 60 * 60 * 1000) {
+    console.log("At least 3 hours have passed since the last execution.");
+    // Update lastExecutionTime to the current time
+  async () => {
+  console.log(await getRandomHadith());
+}
+
+    lastExecutionTime = currentTime;
+    // execute appends 
+  }
+  
+  // Continue to the next middleware or route
+  next();
+});
+
+// Define the /chron route
+app.get("/chron", (req: Request, res: Response) => {
+  res.type('html').send("This is the /chron route.");
+});
+
+
+app.get("/", (req: Request, res: Response) => res.type('html').send(html));
 
 const server = app.listen(port, () => console.log(`Example app listening on port ${port}!`));
 
