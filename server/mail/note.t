@@ -1,0 +1,1 @@
+amazon SES seems to be like a good option for smtp server
