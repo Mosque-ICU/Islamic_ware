@@ -19,7 +19,7 @@
 		"apps/*",
 		"bot/",
 		"container/",
-		"docs/",
+		"docs/*",
 		"docker/*",
 		"graphql/*",
 		"home/*",
