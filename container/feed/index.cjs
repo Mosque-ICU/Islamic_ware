@@ -1,73 +1,59 @@
-
-const express = require('express');
-const app = express();
+var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+    function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
+    return new (P || (P = Promise))(function (resolve, reject) {
+        function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
+        function rejected(value) { try { step(generator["throw"](value)); } catch (e) { reject(e); } }
+        function step(result) { result.done ? resolve(result.value) : adopt(result.value).then(fulfilled, rejected); }
+        step((generator = generator.apply(thisArg, _arguments || [])).next());
+    });
+};
+// import app from 'express';
 const port = process.env.PORT || 8080;
 // const { getRandomHadith } = require('sacred_texts');
 // const { Request, Response, NextFunction } = require('express');
-
 // import express from 'express';
 import { getRandomHadith } from 'sacred_texts';
-import { Request, Response, NextFunction } from 'express';
-
-
 // Route for a Hadith book in a specific language
 // app.get('/:language/hadith/:book', (req: Express.Request, res) => {
 //   const { language, book } = req.params;
 //   res.send(`Welcome to the ${language} language page for ${book}`);
 // });
 // you can access routes like /arabic/hadith/Sahih al-Bukhari, /english/hadith/Sunab Abu Dawood
-
 // Route for a Hadith or quran in a specific language
 const path = require('path'); // Import the 'path' module
-
-app.get('/:language/:type/', (req: Request, res: Response) => {
-  const { language, type } = req.params;
-  const xmlFilePath = path.join(__dirname, 'data', 'feeds', language, `${type}.xml`);
-  res.type('xml').sendFile(xmlFilePath);
+app.get('/:language/:type/', (req, res) => {
+    const { language, type } = req.params;
+    const xmlFilePath = path.join(__dirname, 'data', 'feeds', language, `${type}.xml`);
+    res.type('xml').sendFile(xmlFilePath);
 });
-
-
 // you can access routes like /arabic/hadith/Sahih al-Bukhari, /english/hadith/Sunab Abu Dawood
-
-app.get("/", (req: Request, res: Response) => res.type('html').send(html));
-
-
+app.get("/", (req, res) => res.type('html').send(html));
 // Global variable to store the last execution time
-let lastExecutionTime:any = null;
-
+let lastExecutionTime = null;
 // Middleware to check the time difference
-app.use("/chron", (req: Request, res: Response, next:NextFunction) => {
-  const currentTime: any = new Date();
-  
-  // If lastExecutionTime is not set or it has been more than 3 hours, log a message
-  if (!lastExecutionTime || (currentTime - lastExecutionTime) >= 3 * 60 * 60 * 1000) {
-    console.log("At least 3 hours have passed since the last execution.");
-    // Update lastExecutionTime to the current time
-  async () => {
-  console.log(await getRandomHadith());
-}
-
-    lastExecutionTime = currentTime;
-    // execute appends 
-  }
-  
-  // Continue to the next middleware or route
-  next();
+app.use("/chron", (req, res, next) => {
+    const currentTime = new Date();
+    // If lastExecutionTime is not set or it has been more than 3 hours, log a message
+    if (!lastExecutionTime || (currentTime - lastExecutionTime) >= 3 * 60 * 60 * 1000) {
+        console.log("At least 3 hours have passed since the last execution.");
+        // Update lastExecutionTime to the current time
+        () => __awaiter(void 0, void 0, void 0, function* () {
+            console.log(yield getRandomHadith());
+        });
+        lastExecutionTime = currentTime;
+        // execute appends 
+    }
+    // Continue to the next middleware or route
+    next();
 });
-
 // Define the /chron route
-app.get("/chron", (req: Request, res: Response) => {
-  res.type('html').send("This is the /chron route.");
+app.get("/chron", (req, res) => {
+    res.type('html').send("This is the /chron route.");
 });
-
-
-app.get("/", (req: Request, res: Response) => res.type('html').send(html));
-
+app.get("/", (req, res) => res.type('html').send(html));
 const server = app.listen(port, () => console.log(`Example app listening on port ${port}!`));
-
 server.keepAliveTimeout = 120 * 1000;
 server.headersTimeout = 120 * 1000;
-
 const html = `
 <!DOCTYPE html>
 <html>
@@ -117,4 +103,4 @@ const html = `
     </section>
   </body>
 </html>
-`
+`;
