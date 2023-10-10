@@ -38,6 +38,7 @@
     "helmet": "^5.1.0",
     "morgan": "^1.10.0",
     "sacred_texts": "^0.0.10",
+    "super_ez_rss": "^0.0.6",
     "winston": "^3.7.2"
   }
 }
