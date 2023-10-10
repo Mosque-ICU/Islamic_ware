@@ -1,0 +1,6 @@
+Starting log:
+ - Time: 2023-10-10T20:01:48.488Z
+ - Name: updateCheck (updatecheck)
+ - Command: yarn
+ - Arguments: node /Users/hossamsulleman/Documents/GitHub/islamic-ware/mail/node_modules/@redwoodjs/cli/dist/lib/updateCheckExecute.js
+
