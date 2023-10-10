@@ -1,6 +1,17 @@
 Starting log:
- - Time: 2023-10-10T20:01:48.488Z
+ - Time: 2023-10-10T20:23:49.107Z
  - Name: updateCheck (updatecheck)
  - Command: yarn
  - Arguments: node /Users/hossamsulleman/Documents/GitHub/islamic-ware/mail/node_modules/@redwoodjs/cli/dist/lib/updateCheckExecute.js
 
+Detected the current version of RedwoodJS: '6.3.1'
+Checking for new versions for npm tag: 'latest'
+Detected the latest versions of RedwoodJS as:
+[
+  [
+    "latest",
+    "6.3.1"
+  ]
+]
+Saving updated version information for future checks...
+Update Check: 3.704s
