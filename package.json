@@ -20,7 +20,7 @@
 		"bot/",
 		"container/",
 		"content/*",
-				"docs/*",
+		"docs/*",
 		"mail/*",
 		"docker/*",
 		"graphql/*",

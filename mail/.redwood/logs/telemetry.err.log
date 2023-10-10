@@ -1,6 +1,7 @@
 Starting log:
- - Time: 2023-10-10T20:23:49.307Z
+ - Time: 2023-10-10T20:29:34.630Z
  - Name: telemetry (telemetry)
  - Command: yarn
  - Arguments: node /Users/hossamsulleman/Documents/GitHub/islamic-ware/mail/node_modules/@redwoodjs/cli/dist/telemetry/send.js
 
+/bin/sh: /private/var/folders/l5/_ggcdwn10kj7ftfyxjf72c_00000gn/T/xfs-7f7fd44a/yarn: No such file or directory
