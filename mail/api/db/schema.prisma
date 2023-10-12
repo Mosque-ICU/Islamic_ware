@@ -1,72 +1,85 @@
+// Define the data source for your application, using SQLite.
+// The actual database URL is retrieved from an environment variable.
 datasource db {
   provider = "sqlite"
   url      = env("DATABASE_URL")
 }
 
+// Define a Prisma generator for a JavaScript client.
 generator client {
   provider      = "prisma-client-js"
   binaryTargets = "native"
 }
 
+// Define the User model, which represents users in the application.
 model User {
-  id                  Int           @id @default(autoincrement())
-  email               String        @unique
-  hashedPassword      String // <─┐
-  salt                String // <─┼─ add these lines
-  resetToken          String? // <─┤
-  resetTokenExpiresAt DateTime? // <─┘
-  joined              DateTime      @default(now())
-  prefrences          Prefrence[]
-  mailingLists        MailingList[]
-  emails              Email[]
-  Method              Method?       @relation(fields: [methodId], references: [id])
-  methodId            Int?
+  id                  Int       @id @default(autoincrement()) // Auto-incrementing integer as the primary key
+  email               String    @unique // Unique email for each user
+  hashedPassword      String // Hashed password for user security
+  salt                String // Salt for password hashing
+  resetToken          String? // Reset token for password reset (optional)
+  resetTokenExpiresAt DateTime? // Expiration date for the reset token (optional)
 }
 
+// Define the Subscriber model, representing subscribers in the application.
+model Subscriber {
+  id           Int           @id @default(autoincrement()) // Auto-incrementing integer as the primary key
+  email        String        @unique // Unique email for each subscriber
+  joined       DateTime      @default(now()) // Default to the current date and time when joined
+  mailingLists MailingList[] // Subscribers can be part of multiple mailing lists
+  emails       Email[] // Subscribers can have multiple emails
+  Method       Method?       @relation(fields: [methodId], references: [id]) // Relationship to the Method model
+  methodId     Int? // Optional reference to a Method
+  Prefrence    Prefrence?    @relation(fields: [prefrenceId], references: [id]) // Relationship to the Prefrence model
+  prefrenceId  Int? // Optional reference to a Prefrence
+}
+
+// Define the Prefrence model, representing subscriber preferences.
 model Prefrence {
-  id          Int     @id @default(autoincrement())
-  marketing   Boolean
-  dawah       Boolean
-  promotional Boolean
-  news        Boolean
-  User        User?   @relation(fields: [userId], references: [id])
-  userId      Int?
+  id          Int          @id @default(autoincrement()) // Auto-incrementing integer as the primary key
+  marketing   Boolean // Boolean indicating marketing preference
+  dawah       Boolean // Boolean indicating dawah preference
+  promotional Boolean // Boolean indicating promotional preference
+  news        Boolean // Boolean indicating news preference
+  subcribers  Subscriber[] // Subscribers associated with this preference
 }
 
+// Define the Method model, representing communication methods.
 model Method {
-  id     Int     @id @default(autoincrement())
-  email  Boolean
-  phone  Boolean
-  postal Boolean
-  users  User[]
+  id          Int          @id @default(autoincrement()) // Auto-incrementing integer as the primary key
+  email       Boolean // Boolean indicating email communication method
+  phone       Boolean // Boolean indicating phone communication method
+  postal      Boolean // Boolean indicating postal communication method
+  subscribers Subscriber[] // Subscribers associated with this communication method
 }
 
+// Define the MailingList model, representing mailing lists.
 model MailingList {
-  id             Int             @id @default(autoincrement())
-  name           String          @unique
-  description    String?
-  subscribers    User[]
-  emailCampaigns EmailCampaign[]
-  Email          Email?          @relation(fields: [emailId], references: [id])
-  emailId        Int?
+  id             Int             @id @default(autoincrement()) // Auto-incrementing integer as the primary key
+  name           String          @unique // Unique name for each mailing list
+  description    String? // Optional description for the mailing list
+  emailCampaigns EmailCampaign[] // Mailing list can be associated with multiple email campaigns
+  Subscriber   Subscriber? @relation(fields: [subscriberId], references: [id]) // Relationship to the Subscriber model
+  subscriberId Int? // Optional reference to a Subscriber
 }
 
+// Define the EmailCampaign model, representing email campaigns.
 model EmailCampaign {
-  id            Int         @id @default(autoincrement())
-  name          String      @unique
-  description   String?
-  mailingList   MailingList @relation(fields: [mailingListId], references: [id])
-  emails        Email[]
-  mailingListId Int
+  id            Int         @id @default(autoincrement()) // Auto-incrementing integer as the primary key
+  name          String       // Unique name for each email campaign
+  description   String? // Optional description for the email campaign
+  emails        Email[] // Email campaign can have multiple emails
+  mailingList   MailingList @relation(fields: [mailingListId], references: [id]) // Relationship to the MailingList model
+  mailingListId Int // Reference to the associated mailing list
 }
 
+// Define the Email model, representing individual emails.
 model Email {
-  id             Int             @id @default(autoincrement())
-  subject        String
-  content        String
-  sentAt         DateTime
-  sender         String
-  recipients     User[]
-  mailingLists   MailingList[]
-  emailCampaigns EmailCampaign[]
+  id             Int             @id @default(autoincrement()) // Auto-incrementing integer as the primary key
+  subject        String // Subject of the email
+  content        String // Content of the email
+  sentAt         DateTime // Date and time the email was sent
+  sender         String // Sender of the email
+  recipients     Subscriber[] // Subscribers who received this email
+  emailCampaigns EmailCampaign[] // Email can be associated with multiple email campaigns
 }
