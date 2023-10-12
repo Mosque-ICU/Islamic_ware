@@ -8,11 +8,63 @@ generator client {
   binaryTargets = "native"
 }
 
-// Define your own datamodels here and run `yarn redwood prisma migrate dev`
-// to create migrations for them and apply to your dev DB.
-// TODO: Please remove the following example:
-model UserExample {
-  id    Int     @id @default(autoincrement())
-  email String  @unique
-  name  String?
+model User {
+  id       Int      @id @default(autoincrement())
+  email    String   @unique
+  password String
+  subscribers Subscriber[]
+  isAdmin  Boolean  @default(false)
+
+  @@map("users")
+}
+
+model Subscriber {
+  id            Int      @id @default(autoincrement())
+  email         String   @unique
+  firstName     String?
+  lastName      String?
+  subscribedAt  DateTime @default(now())
+  mailingLists  MailingList[]
+  sentEmails    Email[]
+  unsubscribed  Boolean  @default(false)
+  user          User?
+
+  @@map("subscribers")
+}
+
+model MailingList {
+  id          Int       @id @default(autoincrement())
+  name        String    @unique
+  description String?
+  subscribers Subscriber[]
+  emailCampaigns EmailCampaign[]
+
+  @@map("mailing_lists")
+}
+
+model Email {
+  id             Int      @id @default(autoincrement())
+  subject        String
+  content        String
+  sentAt         DateTime
+  sender         String
+  recipients     Subscriber[]
+  mailingLists   MailingList[]
+  emailCampaigns EmailCampaign[]
+  openEvents     EmailOpenEvent[]
+  clickEvents    EmailClickEvent[]
+
+  @@map("emails")
+}
+
+
+
+model EmailCampaign {
+  id          Int      @id @default(autoincrement())
+  name        String   @unique
+  description String?
+  mailingList MailingList
+  emails      Email[]
+
+  @@map("email_campaigns")
 }

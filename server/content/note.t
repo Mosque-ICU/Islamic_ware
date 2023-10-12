@@ -1,1 +1,0 @@
-we can use render to host this app or fly.io both can be using a docker container ect 

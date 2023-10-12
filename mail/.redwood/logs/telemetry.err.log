@@ -1,7 +1,149 @@
 Starting log:
- - Time: 2023-10-10T20:29:34.630Z
+ - Time: 2023-10-10T23:28:08.174Z
  - Name: telemetry (telemetry)
  - Command: yarn
  - Arguments: node /Users/hossamsulleman/Documents/GitHub/islamic-ware/mail/node_modules/@redwoodjs/cli/dist/telemetry/send.js
 
-/bin/sh: /private/var/folders/l5/_ggcdwn10kj7ftfyxjf72c_00000gn/T/xfs-7f7fd44a/yarn: No such file or directory
+Encountered:
+AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1667:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 104.21.83.49:443
+        at createConnectionError (node:net:1634:14)
+        at afterConnectMultiple (node:net:1664:40) {
+      errno: -61,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '104.21.83.49',
+      port: 443
+    },
+    Error: connect ECONNREFUSED 172.67.214.203:443
+        at createConnectionError (node:net:1634:14)
+        at afterConnectMultiple (node:net:1664:40) {
+      errno: -61,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '172.67.214.203',
+      port: 443
+    }
+  ]
+}
+while exporting the following spans:
+[
+  {
+    attributes: { command: 'generate function', force: false, rollback: true },
+    links: [],
+    events: [],
+    _droppedAttributesCount: 0,
+    _droppedEventsCount: 0,
+    _droppedLinksCount: 0,
+    status: { code: 1 },
+    endTime: [ 1696969774, 628421875 ],
+    _ended: true,
+    _duration: [ 2, 257421875 ],
+    name: 'cli',
+    _spanContext: {
+      traceId: 'dfbe18b40fa9678a8c6d76b870f3c5e6',
+      spanId: '90b680d415123ce0',
+      traceFlags: 1
+    },
+    kind: 0,
+    _performanceStartTime: 980.6430420018733,
+    _performanceOffset: -2.38916015625,
+    _startTimeProvided: false,
+    startTime: [ 1696969772, 371000000 ],
+    resource: Resource {
+      _attributes: [Object],
+      asyncAttributesPending: false,
+      _syncAttributes: [Object],
+      _asyncAttributesPromise: undefined
+    },
+    instrumentationLibrary: { name: 'redwoodjs' },
+    _spanLimits: {
+      attributeValueLengthLimit: null,
+      attributeCountLimit: 128,
+      linkCountLimit: 128,
+      eventCountLimit: 128,
+      attributePerEventCountLimit: 128,
+      attributePerLinkCountLimit: 128
+    },
+    _attributeValueLengthLimit: null,
+    spanContext: [Function (anonymous)]
+  }
+]
+Encountered:
+AggregateError
+    at internalConnectMultiple (node:net:1114:18)
+    at afterConnectMultiple (node:net:1667:5) {
+  code: 'ECONNREFUSED',
+  [errors]: [
+    Error: connect ECONNREFUSED 104.21.83.49:443
+        at createConnectionError (node:net:1634:14)
+        at afterConnectMultiple (node:net:1664:40) {
+      errno: -61,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '104.21.83.49',
+      port: 443
+    },
+    Error: connect ECONNREFUSED 172.67.214.203:443
+        at createConnectionError (node:net:1634:14)
+        at afterConnectMultiple (node:net:1664:40) {
+      errno: -61,
+      code: 'ECONNREFUSED',
+      syscall: 'connect',
+      address: '172.67.214.203',
+      port: 443
+    }
+  ]
+}
+while exporting the following spans:
+[
+  {
+    attributes: {
+      command: 'dev',
+      side: '["api","web"]',
+      generate: true,
+      watchNodeModules: false
+    },
+    links: [],
+    events: [],
+    _droppedAttributesCount: 0,
+    _droppedEventsCount: 0,
+    _droppedLinksCount: 0,
+    status: { code: 1 },
+    endTime: [ 1696980488, 173449542 ],
+    _ended: true,
+    _duration: [ 0, 246449542 ],
+    name: 'cli',
+    _spanContext: {
+      traceId: 'da919c24b51c71fda3341799cfc013b3',
+      spanId: '599fbf5791742fb0',
+      traceFlags: 1
+    },
+    kind: 0,
+    _performanceStartTime: 757.2822920000181,
+    _performanceOffset: -0.108154296875,
+    _startTimeProvided: false,
+    startTime: [ 1696980487, 927000000 ],
+    resource: Resource {
+      _attributes: [Object],
+      asyncAttributesPending: false,
+      _syncAttributes: [Object],
+      _asyncAttributesPromise: undefined
+    },
+    instrumentationLibrary: { name: 'redwoodjs' },
+    _spanLimits: {
+      attributeValueLengthLimit: null,
+      attributeCountLimit: 128,
+      linkCountLimit: 128,
+      eventCountLimit: 128,
+      attributePerEventCountLimit: 128,
+      attributePerLinkCountLimit: 128
+    },
+    _attributeValueLengthLimit: null,
+    spanContext: [Function (anonymous)]
+  }
+]
