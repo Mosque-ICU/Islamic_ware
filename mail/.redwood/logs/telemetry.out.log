@@ -1,5 +1,5 @@
 Starting log:
- - Time: 2023-10-10T23:28:08.174Z
+ - Time: 2023-10-12T01:55:25.798Z
  - Name: telemetry (telemetry)
  - Command: yarn
  - Arguments: node /Users/hossamsulleman/Documents/GitHub/islamic-ware/mail/node_modules/@redwoodjs/cli/dist/telemetry/send.js
@@ -10,8 +10,9 @@ You can disable telemetry by:
 Information about Redwood telemetry can be found at:
  - https://telemetry.redwoodjs.com
 
-Computed resource information: 453.363ms
+Computed resource information: 830.884ms
 Sending telemetry data to 'https://quark.quantumparticle.io/v1/traces'
-Sending data from telemetry file '1696969772367.json'
-Sending data from telemetry file '1696980487925.json'
+Sending data from telemetry file '1697075562156.json'
+Sending data from telemetry file '1697075651653.json'
+Sending data from telemetry file '1697075669591.json'
 Keeping the lastest 8 telemetry files for visibility/transparency.

@@ -1,17 +1,13 @@
 Starting log:
- - Time: 2023-10-10T20:23:49.107Z
+ - Time: 2023-10-12T01:52:42.323Z
  - Name: updateCheck (updatecheck)
  - Command: yarn
  - Arguments: node /Users/hossamsulleman/Documents/GitHub/islamic-ware/mail/node_modules/@redwoodjs/cli/dist/lib/updateCheckExecute.js
 
-Detected the current version of RedwoodJS: '6.3.1'
-Checking for new versions for npm tag: 'latest'
-Detected the latest versions of RedwoodJS as:
-[
-  [
-    "latest",
-    "6.3.1"
-  ]
-]
-Saving updated version information for future checks...
-Update Check: 3.704s
+[31m[1mUsage Error[22m[39m: The nearest package directory (/Users/hossamsulleman/Documents/GitHub/islamic-ware/mail) doesn't seem to be part of the project declared in /Users/hossamsulleman.
+
+- If /Users/hossamsulleman isn't intended to be a project, remove any yarn.lock and/or package.json file there.
+- If /Users/hossamsulleman is intended to be a project, it might be that you forgot to list Documents/GitHub/islamic-ware/mail in its workspace configuration.
+- Finally, if /Users/hossamsulleman is fine and you intend Documents/GitHub/islamic-ware/mail to be treated as a completely separate project (not even a workspace), create an empty yarn.lock file in it.
+
+[1m$ [22myarn exec <commandName> ...

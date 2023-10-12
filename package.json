@@ -21,7 +21,6 @@
 		"container/",
 		"content/*",
 		"docs/*",
-		"mail/*",
 		"docker/*",
 		"graphql/*",
 		"server/*",

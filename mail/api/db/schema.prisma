@@ -8,63 +8,63 @@ generator client {
   binaryTargets = "native"
 }
 
-model User {
-  id       Int      @id @default(autoincrement())
-  email    String   @unique
-  password String
-  subscribers Subscriber[]
-  isAdmin  Boolean  @default(false)
+// model User {
+//   id       Int      @id @default(autoincrement())
+//   email    String   @unique
+//   password String
+//   subscribers Subscriber[]
+//   isAdmin  Boolean  @default(false)
 
-  @@map("users")
-}
+//   @@map("users")
+// }
 
-model Subscriber {
-  id            Int      @id @default(autoincrement())
-  email         String   @unique
-  firstName     String?
-  lastName      String?
-  subscribedAt  DateTime @default(now())
-  mailingLists  MailingList[]
-  sentEmails    Email[]
-  unsubscribed  Boolean  @default(false)
-  user          User?
+// model Subscriber {
+//   id            Int      @id @default(autoincrement())
+//   email         String   @unique
+//   firstName     String?
+//   lastName      String?
+//   subscribedAt  DateTime @default(now())
+//   mailingLists  MailingList[]
+//   sentEmails    Email[]
+//   unsubscribed  Boolean  @default(false)
+//   user          User?
 
-  @@map("subscribers")
-}
+//   @@map("subscribers")
+// }
 
-model MailingList {
-  id          Int       @id @default(autoincrement())
-  name        String    @unique
-  description String?
-  subscribers Subscriber[]
-  emailCampaigns EmailCampaign[]
+// model MailingList {
+//   id          Int       @id @default(autoincrement())
+//   name        String    @unique
+//   description String?
+//   subscribers Subscriber[]
+//   emailCampaigns EmailCampaign[]
 
-  @@map("mailing_lists")
-}
+//   @@map("mailing_lists")
+// }
 
-model Email {
-  id             Int      @id @default(autoincrement())
-  subject        String
-  content        String
-  sentAt         DateTime
-  sender         String
-  recipients     Subscriber[]
-  mailingLists   MailingList[]
-  emailCampaigns EmailCampaign[]
-  openEvents     EmailOpenEvent[]
-  clickEvents    EmailClickEvent[]
+// model Email {
+//   id             Int      @id @default(autoincrement())
+//   subject        String
+//   content        String
+//   sentAt         DateTime
+//   sender         String
+//   recipients     Subscriber[]
+//   mailingLists   MailingList[]
+//   emailCampaigns EmailCampaign[]
+//   openEvents     EmailOpenEvent[]
+//   clickEvents    EmailClickEvent[]
 
-  @@map("emails")
-}
+//   @@map("emails")
+// }
 
 
 
-model EmailCampaign {
-  id          Int      @id @default(autoincrement())
-  name        String   @unique
-  description String?
-  mailingList MailingList
-  emails      Email[]
+// model EmailCampaign {
+//   id          Int      @id @default(autoincrement())
+//   name        String   @unique
+//   description String?
+//   mailingList MailingList
+//   emails      Email[]
 
-  @@map("email_campaigns")
-}
+//   @@map("email_campaigns")
+// }
