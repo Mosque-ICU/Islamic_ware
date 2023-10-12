@@ -1,6 +1,6 @@
-import type { APIGatewayEvent, Context } from 'aws-lambda'
-
-import { logger } from 'src/lib/logger'
+import { APIGatewayEvent, Context } from 'aws-lambda';
+import { db } from 'src/lib/db';
+import { logger } from 'src/lib/logger';
 
 /**
  * The handler function is your code that processes http request events.
@@ -19,15 +19,37 @@ import { logger } from 'src/lib/logger'
  * function, and execution environment.
  */
 export const handler = async (event: APIGatewayEvent, _context: Context) => {
-  logger.info(`${event.httpMethod} ${event.path}: subscribe function`)
+  logger.info(`${event.httpMethod} ${event.path}: subscribe function`);
 
-  return {
-    statusCode: 200,
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({
-      data: 'subscribe function',
-    }),
+  try {
+    // Replace these with the actual values you want to create in the database
+  const { pathParameters } = event;
+
+    const newSubscriber = await db.subscriber.create({
+      data: {
+        email :pathParameters.email,
+      },
+    });
+
+    return {
+      statusCode: 200,
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        data: newSubscriber, // You may want to return the created subscriber
+      }),
+    };
+  } catch (error) {
+    // Handle any potential errors
+    return {
+      statusCode: 500, // or an appropriate error code
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        error: error.message,
+      }),
+    };
   }
-}
+};

@@ -1,7 +1,6 @@
-// Define the data source for your application, using SQLite.
 // The actual database URL is retrieved from an environment variable.
 datasource db {
-  provider = "sqlite"
+  provider = "postgres"
   url      = env("DATABASE_URL")
 }
 
@@ -59,14 +58,14 @@ model MailingList {
   name           String          @unique // Unique name for each mailing list
   description    String? // Optional description for the mailing list
   emailCampaigns EmailCampaign[] // Mailing list can be associated with multiple email campaigns
-  Subscriber   Subscriber? @relation(fields: [subscriberId], references: [id]) // Relationship to the Subscriber model
-  subscriberId Int? // Optional reference to a Subscriber
+  Subscriber     Subscriber?     @relation(fields: [subscriberId], references: [id]) // Relationship to the Subscriber model
+  subscriberId   Int? // Optional reference to a Subscriber
 }
 
 // Define the EmailCampaign model, representing email campaigns.
 model EmailCampaign {
   id            Int         @id @default(autoincrement()) // Auto-incrementing integer as the primary key
-  name          String       // Unique name for each email campaign
+  name          String // Unique name for each email campaign
   description   String? // Optional description for the email campaign
   emails        Email[] // Email campaign can have multiple emails
   mailingList   MailingList @relation(fields: [mailingListId], references: [id]) // Relationship to the MailingList model
