@@ -8,63 +8,65 @@ generator client {
   binaryTargets = "native"
 }
 
-// model User {
-//   id       Int      @id @default(autoincrement())
-//   email    String   @unique
-//   password String
-//   subscribers Subscriber[]
-//   isAdmin  Boolean  @default(false)
+model User {
+  id                  Int           @id @default(autoincrement())
+  email               String        @unique
+  hashedPassword      String // <─┐
+  salt                String // <─┼─ add these lines
+  resetToken          String? // <─┤
+  resetTokenExpiresAt DateTime? // <─┘
+  joined              DateTime      @default(now())
+  prefrences          Prefrence[]
+  mailingLists        MailingList[]
+  emails              Email[]
+  Method              Method?       @relation(fields: [methodId], references: [id])
+  methodId            Int?
+}
 
-//   @@map("users")
-// }
+model Prefrence {
+  id          Int     @id @default(autoincrement())
+  marketing   Boolean
+  dawah       Boolean
+  promotional Boolean
+  news        Boolean
+  User        User?   @relation(fields: [userId], references: [id])
+  userId      Int?
+}
 
-// model Subscriber {
-//   id            Int      @id @default(autoincrement())
-//   email         String   @unique
-//   firstName     String?
-//   lastName      String?
-//   subscribedAt  DateTime @default(now())
-//   mailingLists  MailingList[]
-//   sentEmails    Email[]
-//   unsubscribed  Boolean  @default(false)
-//   user          User?
+model Method {
+  id     Int     @id @default(autoincrement())
+  email  Boolean
+  phone  Boolean
+  postal Boolean
+  users  User[]
+}
 
-//   @@map("subscribers")
-// }
+model MailingList {
+  id             Int             @id @default(autoincrement())
+  name           String          @unique
+  description    String?
+  subscribers    User[]
+  emailCampaigns EmailCampaign[]
+  Email          Email?          @relation(fields: [emailId], references: [id])
+  emailId        Int?
+}
 
-// model MailingList {
-//   id          Int       @id @default(autoincrement())
-//   name        String    @unique
-//   description String?
-//   subscribers Subscriber[]
-//   emailCampaigns EmailCampaign[]
+model EmailCampaign {
+  id            Int         @id @default(autoincrement())
+  name          String      @unique
+  description   String?
+  mailingList   MailingList @relation(fields: [mailingListId], references: [id])
+  emails        Email[]
+  mailingListId Int
+}
 
-//   @@map("mailing_lists")
-// }
-
-// model Email {
-//   id             Int      @id @default(autoincrement())
-//   subject        String
-//   content        String
-//   sentAt         DateTime
-//   sender         String
-//   recipients     Subscriber[]
-//   mailingLists   MailingList[]
-//   emailCampaigns EmailCampaign[]
-//   openEvents     EmailOpenEvent[]
-//   clickEvents    EmailClickEvent[]
-
-//   @@map("emails")
-// }
-
-
-
-// model EmailCampaign {
-//   id          Int      @id @default(autoincrement())
-//   name        String   @unique
-//   description String?
-//   mailingList MailingList
-//   emails      Email[]
-
-//   @@map("email_campaigns")
-// }
+model Email {
+  id             Int             @id @default(autoincrement())
+  subject        String
+  content        String
+  sentAt         DateTime
+  sender         String
+  recipients     User[]
+  mailingLists   MailingList[]
+  emailCampaigns EmailCampaign[]
+}
