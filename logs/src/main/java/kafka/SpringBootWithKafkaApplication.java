@@ -40,7 +40,7 @@ public class SpringBootWithKafkaApplication {
 						break;
 					case "--consumer":
 						MessageListenerContainer listenerContainer = kafkaListenerEndpointRegistry
-								.getListenerContainer("myConsumer");
+							.getListenerContainer("myConsumer");
 						listenerContainer.start();
 						break;
 					default:

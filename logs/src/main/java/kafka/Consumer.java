@@ -16,9 +16,9 @@ public class Consumer {
 	private final Logger logger = LoggerFactory.getLogger(Consumer.class);
 
 	@KafkaListener(id = "myConsumer", topics = "purchases", groupId = "spring-boot", autoStartup = "false")
-	public void listen(String value,
-			@Header(KafkaHeaders.RECEIVED_TOPIC) String topic,
+	public void listen(String value, @Header(KafkaHeaders.RECEIVED_TOPIC) String topic,
 			@Header(KafkaHeaders.RECEIVED_MESSAGE_KEY) String key) {
 		logger.info(String.format("Consumed event from topic %s: key = %-10s value = %s", topic, key, value));
 	}
+
 }
