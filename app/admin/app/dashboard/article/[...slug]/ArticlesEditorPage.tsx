@@ -3,7 +3,7 @@
 import { handleErrors, handleSuccess } from "@/app/_helpers/web/formatters";
 import { useEstablishment } from "@/app/_helpers/web/hooks/useEstablishment";
 import { requestHandler, removeFromCache } from "@/app/_helpers/web/requestHandler";
-import ArticleEditor from "@/app/components/ArticleEditor/ArticleEditor";
+import ArticleEditor from "@/app/build/Article/ArticleEditor/ArticleEditor";
 import Loader from "@/app/components/Loader/Loader";
 import Nav from "@/app/components/Nav/Nav";
 import React from "react";

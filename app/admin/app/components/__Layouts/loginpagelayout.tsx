@@ -16,7 +16,7 @@ import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { ChevronRightIcon } from "@heroicons/react/20/solid";
-import DynamicText from "../_dynamicText/Text";
+import DynamicText from "../../build/_dynamicText/Text";
 
 const navigation = [
   { name: "Product", href: "#" },

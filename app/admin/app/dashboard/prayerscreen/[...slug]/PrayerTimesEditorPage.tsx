@@ -6,7 +6,7 @@ import { publicId } from "@/app/_helpers/web/formatters";
 import { useEstablishment } from "@/app/_helpers/web/hooks/useEstablishment";
 import { prayerTimesService } from "@/app/_helpers/web/services/prayerTimes.service";
 import Button from "@/app/components/Button/Button";
-import PrayertimesScreen from "@/app/components/PrayerTimes/PrayerTimesScreen";
+import PrayertimesScreen from "@/app/build/XDisplay/PrayerTimesScreen";
 import { ShareIcon } from "@heroicons/react/24/outline";
 import Loader from "@/app/components/Loader/Loader";
 import Link from "next/link";

@@ -24,6 +24,7 @@
 		"docker/*",
 		"graphql/*",
 		"server/*",
+		"logs/",
 		"services/*",
 		"shared/*",
 		"web/*",

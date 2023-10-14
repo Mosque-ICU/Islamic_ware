@@ -1,6 +1,6 @@
 'use client';
 import { useEstablishment } from '@/app/_helpers/web/hooks/useEstablishment';
-import Articles from '@/app/components/Articles/Articles';
+import Articles from '@/app/features/articles/Articles';
 import Loader from '@/app/components/Loader/Loader';
 import Nav from '@/app/components/Nav/Nav';
 import React, { Fragment } from 'react';

@@ -4,8 +4,8 @@ import { unmountComponentAtNode } from "react-dom";
 
 import { getReactRoots, setFormWidth, setReactRoots } from "../formatters";
 import { addToCache, getCachData } from "../requestHandler";
-import { EmbedInputTool } from "@/app/components/EditorTools/EmbedInputTool";
-import { QuranExplorerTool } from "@/app/components/EditorTools/QuranExplorerTool";
+import { EmbedInputTool } from "@/app/components/Editor/EditorTools/EmbedInputTool";
+import { QuranExplorerTool } from "@/app/components/Editor/EditorTools/QuranExplorerTool";
 
 let timeout: string | number | NodeJS.Timeout | null | undefined = null;
 let editor: any;

@@ -1,5 +1,5 @@
 import React from "react";
-import RecordViewer from "../RecordViewer/RecordViewer";
+import RecordViewer from "../../build/Record/RecordViewer/RecordViewer";
 import AddSites from "./AddSites";
 import { useRouter } from "next/navigation";
 import { Toaster } from "react-hot-toast";

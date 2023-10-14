@@ -4,7 +4,7 @@ import React, { Fragment } from 'react';
 
 import { useEstablishment } from '@/app/_helpers/web/hooks/useEstablishment';
 import Nav from '@/app/components/Nav/Nav';
-import PrayerScreens from '@/app/components/PrayerScreens/PrayerScreens';
+import PrayerScreens from '@/app/features/displays/PrayerScreens';
 import Loader from '@/app/components/Loader/Loader';
 import SideBarLayout from '@/app/components/__Layouts/homesidebar';
 import { Toaster } from 'react-hot-toast';

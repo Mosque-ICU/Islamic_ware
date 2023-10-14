@@ -1,7 +1,7 @@
 'use client';
 
 import { useEstablishment } from '@/app/_helpers/web/hooks/useEstablishment';
-import Prayers from '@/app/components/Prayers/Prayers';
+import Prayers from '@/app/features/prayers/Prayers';
 
 import Loader from '@/app/components/Loader/Loader';
 import Nav from '@/app/components/Nav/Nav';
