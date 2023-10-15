@@ -1,6 +1,14 @@
 Starting log:
- - Time: 2023-10-12T03:08:42.832Z
+ - Time: 2023-10-15T14:16:19.557Z
  - Name: telemetry (telemetry)
  - Command: yarn
  - Arguments: node /Users/hossamsulleman/Documents/GitHub/islamic-ware/mail/node_modules/@redwoodjs/cli/dist/telemetry/send.js
 
+Error reading telemetry file '1697379358826.json'
+SyntaxError: /Users/hossamsulleman/Documents/GitHub/islamic-ware/mail/.redwood/telemetry/1697379358826.json: Unexpected non-whitespace character after JSON at position 1508
+    at parse (<anonymous>)
+    at JSON.parse (/Users/hossamsulleman/Documents/GitHub/islamic-ware/mail/node_modules/core-js/modules/esnext.json.parse.js:249:56)
+    at Object.readFileSync (/Users/hossamsulleman/Documents/GitHub/islamic-ware/mail/node_modules/jsonfile/index.js:52:17)
+    at main (/Users/hossamsulleman/Documents/GitHub/islamic-ware/mail/node_modules/@redwoodjs/cli/dist/telemetry/send.js:47:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+Deleting this file to prevent further errors

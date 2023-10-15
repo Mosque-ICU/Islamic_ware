@@ -4321,6 +4321,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@redwoodjs/cli-data-migrate@npm:6.3.1":
+  version: 6.3.1
+  resolution: "@redwoodjs/cli-data-migrate@npm:6.3.1"
+  dependencies:
+    "@redwoodjs/babel-config": 6.3.1
+    "@redwoodjs/project-config": 6.3.1
+    chalk: 4.1.2
+    dotenv-defaults: 5.0.2
+    execa: 5.1.1
+    fs-extra: 11.1.1
+    listr2: 6.6.1
+    terminal-link: 2.1.1
+    yargs: 17.7.2
+  bin:
+    up: dist/bin.js
+  checksum: 2ab1a8a821325837713fc8158b5f7b1d18a68a0144a4dafc408d2b9d1e69d3eece540a996901121f2d125db9d3baaf1845f47e8ae2964a7e54d38261e578bdbf
+  languageName: node
+  linkType: hard
+
 "@redwoodjs/cli-helpers@npm:6.3.1":
   version: 6.3.1
   resolution: "@redwoodjs/cli-helpers@npm:6.3.1"
@@ -17789,6 +17808,7 @@ __metadata:
   resolution: "root-workspace-0b6124@workspace:."
   dependencies:
     "@redwoodjs/auth-dbauth-setup": 6.3.1
+    "@redwoodjs/cli-data-migrate": 6.3.1
     "@redwoodjs/core": 6.3.1
   languageName: unknown
   linkType: soft
