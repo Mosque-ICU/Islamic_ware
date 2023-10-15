@@ -1,0 +1,3 @@
+[submodule "content/reader/lettura"]
+	path = content/reader/lettura
+	url = https://github.com/zhanglun/lettura.git
