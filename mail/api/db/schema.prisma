@@ -1,7 +1,8 @@
 // The actual database URL is retrieved from an environment variable.
 datasource db {
-  provider = "postgres"
-  url      = env("POSTGRES_URL")
+  provider  = "postgresql"
+  url       = env("POSTGRES_PRISMA_URL") // uses connection pooling
+  directUrl = env("POSTGRES_URL_NON_POOLING") // uses a direct connection
 }
 
 // Define a Prisma generator for a JavaScript client.
