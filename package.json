@@ -1,36 +1,17 @@
 {
-	"private": true,
-	"scripts": {
-		"build": "turbo run build",
-		"dev": "turbo run dev",
-		"lint": "turbo run lint",
-		"publish-packages": "turbo run build lint test && changeset version && changeset publish",
-		"format": "prettier --write \"**/*.{ts,tsx,md}\""
-	},
-	"devDependencies": {
-		"eslint": "^8.48.0",
-		"prettier": "^3.0.3",
-		"tsconfig": "*",
-		"turbo": "latest"
-	},
-	"name": "islamic-ware",
-	"packageManager": "npm@10.2.0",
-	"workspaces": [
-		"app/*",
-		"bot/",
-		"container/",
-		"content/*",
-		"docs/*",
-		"docker/*",
-		"graphql/*",
-		"server/*",
-		"logs/",
-		"services/*",
-		"shared/*",
-		"web/*",
-		"tools/*"
-	],
-	"dependencies": {
-		"@changesets/cli": "^2.26.2"
-	}
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.3",
+    "tsconfig": "workspace:*",
+    "turbo": "latest"
+  },
+  "packageManager": "pnpm@8.6.10",
+  "name": "my-turborepo"
 }
