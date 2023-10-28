@@ -1,1 +1,0 @@
-this website is for SEO purposes to help our disocrd community get well known  

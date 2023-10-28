@@ -1,1 +1,0 @@
-aamir has a content upload server in node.js for our s3 serviice
