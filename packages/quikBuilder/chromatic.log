@@ -1,0 +1,88 @@
+
+Chromatic CLI v7.5.4
+https://www.chromatic.com/docs/cli
+
+Authenticating with Chromatic
+    → Connecting to https://index.chromatic.com
+Authenticated with Chromatic
+    → Using project token '****************3e0a'
+Retrieving git information
+Retrieved git information
+    → Commit 'ddf6152' on branch 'main'; found 1 parent build
+Collecting Storybook metadata
+Collected Storybook metadata
+    → Storybook 7.5.1 for React; using the @storybook/react-webpack5 builder (7.5.1); supported addons found: Links, Essentials, Interactions, A11y
+Initializing build
+Initialized build
+    → Build 2 initialized
+Building your Storybook
+    → Running command: pnpm run build-storybook --output-dir /var/folders/l5/_ggcdwn10kj7ftfyxjf72c_00000gn/T/chromatic--21865-FJF5AfkSfFiX
+Storybook built in 7 seconds
+    → View build log at /Users/hossamsulleman/Desktop/untitled folder/my-turborepo/packages/ui/build-storybook.log
+Publish your built Storybook
+    → Validating Storybook files
+Publishing your built Storybook
+    → Retrieving target location
+    → Starting publish
+    → [                    ] 0%
+    → [==                  ] 10%
+    → [===                 ] 14%
+    → [====                ] 20%
+    → [=====               ] 26%
+    → [======              ] 31%
+    → [======              ] 32%
+    → [=======             ] 37%
+    → [========            ] 40%
+    → [========            ] 41%
+    → [========            ] 42%
+    → [=========           ] 44%
+    → [=========           ] 45%
+    → [==========          ] 49%
+    → [==========          ] 50%
+    → [==========          ] 51%
+    → [==========          ] 52%
+    → [===========         ] 53%
+    → [===========         ] 55%
+    → [===========         ] 56%
+    → [===========         ] 57%
+    → [============        ] 58%
+    → [============        ] 60%
+    → [============        ] 61%
+    → [============        ] 62%
+    → [=============       ] 64%
+    → [=============       ] 65%
+    → [=============       ] 66%
+    → [==============      ] 69%
+    → [==============      ] 71%
+    → [===============     ] 73%
+    → [===============     ] 74%
+    → [===============     ] 75%
+    → [===============     ] 77%
+    → [================    ] 79%
+    → [=================   ] 83%
+    → [==================  ] 88%
+    → [==================  ] 89%
+    → [==================  ] 91%
+    → [==================  ] 92%
+    → [=================== ] 94%
+    → [=================== ] 95%
+    → [=================== ] 96%
+    → [=================== ] 97%
+    → [====================] 99%
+    → [====================] 100%
+Publish complete in 15 seconds
+    → View your Storybook at https://653a784f1b81f7fbe0439537-riffymnekz.chromatic.com
+Verifying your Storybook
+    → This may take a few minutes
+Started build 2
+    → View build details at https://www.chromatic.com/build?appId=653a784f1b81f7fbe0439537&number=2
+Running 1 test
+    → This may take a few minutes
+ℹ Speed up Continuous Integration
+Your project is linked to GitHub so Chromatic will report results there.
+This means you can pass the --exit-once-uploaded flag to skip waiting for build results.
+Read more here: https://www.chromatic.com/docs/cli#chromatic-options
+    → [====================] 1/1  Card › Card Component 
+✔ Build 2 passed!
+No visual changes were found in this build.
+ℹ View build details at https://www.chromatic.com/build?appId=653a784f1b81f7fbe0439537&number=2
