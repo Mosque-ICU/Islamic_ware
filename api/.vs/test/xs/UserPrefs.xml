@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{142B728F-8722-45FB-A81D-88651D8FE201}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="test/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="test/Controllers/HomeController.cs" Line="1" Column="1" />
+      <File FileName="test/Models/ErrorViewModel.cs" Line="1" Column="1" />
+      <File FileName="test/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="test/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="test/Views/Home/Privacy.cshtml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="test" expanded="True">
+            <Node name="test" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="js" expanded="True" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.test PreferredExecutionTarget="/Applications/Vivaldi.app" FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
