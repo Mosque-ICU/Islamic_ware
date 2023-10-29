@@ -6,4 +6,14 @@ export default {
   component: Button,
 };
 
-export const ButtonComponent = () => <Button />;
+interface ButtonProps {
+  label: string;
+}
+
+export const ButtonComponent = (args: ButtonProps) => (
+  <Button {...args}>{args.label}</Button>
+);
+
+ButtonComponent.args = {
+  label: "Continue",
+};

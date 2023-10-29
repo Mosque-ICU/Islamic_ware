@@ -1,10 +1,12 @@
-import clsx from "clsx";
-
-import backgroundImage from "../extra_components/images/background-newsletter.jpg";
+// import Image from "next/image";
 import { Button } from "../button/button";
 import { Container } from "../extra_components/container";
+// The code doesnt like images use svg
+// import background from "../extra_components/images/background-newsletter.jpg";
 
-function ArrowRightIcon(props: React.ComponentPropsWithoutRef<"svg">) {
+function ArrowRightIcon(
+  props: React.ComponentPropsWithoutRef<"svg">
+): JSX.Element {
   return (
     <svg aria-hidden="true" viewBox="0 0 24 24" {...props}>
       <path
@@ -19,7 +21,7 @@ function ArrowRightIcon(props: React.ComponentPropsWithoutRef<"svg">) {
   );
 }
 
-export function EmailRegister() {
+export function EmailRegister(): JSX.Element {
   return (
     <section id="newsletter" aria-label="Newsletter">
       <Container>
@@ -27,14 +29,14 @@ export function EmailRegister() {
           style={{ borderRadius: 50 }}
           className="relative -mx-4 overflow-hidden bg-indigo-50 px-4 py-20 sm:-mx-6 sm:px-6 md:mx-0 md:rounded-5xl md:px-16 xl:px-24 xl:py-36"
         >
-          <img
+          {/* <img
             className="absolute left-1/2 top-0 translate-x-[-10%] translate-y-[-45%] lg:translate-x-[-32%]"
-            src={backgroundImage}
+            src={background}
             alt=""
             width={919}
             height={1351}
             // unoptimized
-          />
+          /> */}
           <div className="relative mx-auto grid max-w-2xl grid-cols-1 gap-x-32 gap-y-14 xl:max-w-none xl:grid-cols-2">
             <div>
               <p className="font-semibold bold text-4xl font-medium tracking-tighter text-blue-900 sm:text-5xl">

@@ -1,7 +1,7 @@
-import { a } from '../chunk-TDK3RJ5H.mjs';
-import '../chunk-DYNA3PMW.mjs';
+import { a } from '../chunk-DZP3I5YG.mjs';
+import { b, a as a$1 } from '../chunk-DYNA3PMW.mjs';
 import { jsx } from 'react/jsx-runtime';
 
-var p={title:"Components/Button",component:a},e=()=>jsx(a,{});
+var u={title:"Components/Button",component:a},p=o=>jsx(a,b(a$1({},o),{children:o.label}));p.args={label:"Continue"};
 
-export { e as ButtonComponent, p as default };
+export { p as ButtonComponent, u as default };

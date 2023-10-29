@@ -1,3 +1,4 @@
+"use client";
 //text-[#05A89D] old text
 //bg-[#84c3be9f] old bg
 
@@ -227,7 +228,7 @@ export default function Example() {
                   <div>
                     <a href="#" className="inline-flex space-x-4">
                       <span className="rounded bg-indigo-100 px-2.5 py-1 text-sm font-semibold text-indigo-500">
-                        What's new
+                        {`What's new`}
                       </span>
                       <span className="inline-flex items-center space-x-1 text-sm font-medium text-indigo-500">
                         <span>Just shipped v0.1.0</span>
@@ -927,10 +928,11 @@ export default function Example() {
             <div className="space-y-8">
               <img className="h-11" src="logo.png" alt="Company name" />
               <p className="text-sm leading-6 text-gray-600">
+                {`
                 "Who is it that would lend Allah a goodly loan so He may
                 multiply it for him many times over? And it is Allah who
                 withholds and grants abundance, and to Him you will be
-                returned." - Quran, Surah Al-Baqarah, 2:245
+                returned." - Quran, Surah Al-Baqarah, 2:245`}
               </p>
               <div className="flex space-x-6">
                 {footerNavigation.social.map((item) => (

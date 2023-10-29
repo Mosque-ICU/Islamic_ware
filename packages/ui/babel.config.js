@@ -5,5 +5,5 @@ module.exports = {
     "@babel/preset-react",
     "@babel/preset-typescript",
   ],
-  plugins: ["babel-plugin-inline-import"],
+  plugins: ["babel-plugin-add-module-exports", "babel-plugin-inline-import"],
 };
