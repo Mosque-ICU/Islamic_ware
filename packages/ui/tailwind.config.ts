@@ -4,7 +4,7 @@ import sharedConfig from "tailwind-config/tailwind.config.ts"; // Import a share
 
 // Define the custom Tailwind CSS configuration
 const config: Pick<Config, "prefix" | "presets"> = {
-  prefix: "ui-", // Set the CSS class prefix to "ui-"
+  prefix: "", // Set the CSS class prefix to "ui-"
   presets: [sharedConfig], // Use the shared configuration as a preset
 };
 
