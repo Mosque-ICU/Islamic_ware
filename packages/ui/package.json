@@ -60,8 +60,11 @@
   },
   "dependencies": {
     "@headlessui/tailwindcss": "^0.2.0",
+    "babel-plugin-inline-import": "^3.0.0",
     "clsx": "^2.0.0",
-    "postcss-loader": "^7.3.3"
+    "install": "^0.13.0",
+    "postcss-loader": "^7.3.3",
+    "reflect-metadata": "^0.1.13"
   },
   "readme": "ERROR: No README data found!",
   "_id": "ui@0.0.0"

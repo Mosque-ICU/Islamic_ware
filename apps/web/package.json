@@ -12,6 +12,7 @@
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
     "autoprefixer": "10.4.15",
+    "ui": "workspace:*",
     "next": "13.4.19",
     "postcss": "8.4.29",
     "react": "18.2.0",

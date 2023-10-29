@@ -1,3 +1,4 @@
+import "reflect-metadata";
 import "../src/styles.css";
 import { withThemeByDataAttribute } from "@storybook/addon-themes";
 
