@@ -52,6 +52,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
+          base_path: '/docs' # Set your desired base path here
           node-version: "16"
           cache: ${{ steps.detect-package-manager.outputs.manager }}
       - name: Setup Pages
