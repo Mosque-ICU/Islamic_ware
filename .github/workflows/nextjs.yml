@@ -27,6 +27,10 @@ concurrency:
 
 jobs:
   # Build job
+protection:
+    required: true
+   rules:
+     - branch: main
   build:
     runs-on: ubuntu-latest
     steps:
