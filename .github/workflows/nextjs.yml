@@ -30,7 +30,7 @@ jobs:
 protection:
     required: true
    rules:
-     - branch: main
+     - branch: docs
   build:
     runs-on: ubuntu-latest
     steps:
